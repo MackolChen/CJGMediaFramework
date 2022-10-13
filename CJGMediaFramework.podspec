@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJGMediaFramework'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = '音视频处理'
 
 # This description is used to generate tags and improve search results.
@@ -20,6 +20,17 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
+   s.pod_target_xcconfig = { :OTHER_LDFLAGS => '-lObjC',
+     :CLANG_CXX_LANGUAGE_STANDARD => 'c++11',
+     :CLANG_CXX_LIBRARY => 'libc++' }
+    
+   # :OTHER_LDFLAGS等价于'OTHER_LDFLAGS'
+   # :CLANG_CXX_LANGUAGE_STANDARD等价于'CLANG_CXX_LANGUAGE_STANDARD'
+   # :CLANG_CXX_LIBRARY等价于'CLANG_CXX_LIBRARY'
+   }
+   s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC',
+     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
+     'CLANG_CXX_LIBRARY' => 'libc++' }
 
   s.homepage         = 'https://github.com/MackolChen/CJGMediaFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -35,8 +46,8 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'CJGMediaFramework' => ['CJGMediaFramework/Assets/*.png']
   # }
-  VALID_ARCHS = ['armv7s','arm64','x86_64','armv7','arm64e']
+  valid_archs = ['armv7s','arm64','x86_64','armv7','arm64e']
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'Foundation','UIKit', 'libc++'
+   s.frameworks = ['Foundation','UIKit', 'libc++']
   # s.dependency 'AFNetworking', '~> 2.3'
 end
