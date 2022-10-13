@@ -90,21 +90,8 @@
  */
 + (BOOL)hasAuthor;
 {
-    int version = [[[UIDevice currentDevice] systemVersion] intValue];
-    
-    if (version < 6.0) {
-        return YES;
-    }
-    else if (version < 8.0)
-    {
-        ALAuthorizationStatus status = [ALAssetsLibrary authorizationStatus];
-        return status == ALAuthorizationStatusAuthorized;
-    }
-    else
-    {
-        PHAuthorizationStatus status = [PHPhotoLibrary authorizationStatus];
-        return status == PHAuthorizationStatusAuthorized;
-    }
+    PHAuthorizationStatus status = [PHPhotoLibrary authorizationStatus];
+    return status == PHAuthorizationStatusAuthorized;
 }
 
 /**
@@ -114,63 +101,8 @@
  */
 + (BOOL)notDetermined;
 {
-    int version = [[[UIDevice currentDevice] systemVersion] intValue];
-    
-    if (version < 6.0) {
-        return YES;
-    }
-    else if (version < 8.0)
-    {
-        ALAuthorizationStatus status = [ALAssetsLibrary authorizationStatus];
-        return status == ALAuthorizationStatusNotDetermined;
-    }
-    else
-    {
-        PHAuthorizationStatus status = [PHPhotoLibrary authorizationStatus];
-        return status == PHAuthorizationStatusNotDetermined;
-    }
-}
-
-/**
- 获取系统相册对象
- 
- @return 返回系统相册对象
- */
-+ (ALAssetsLibrary *)getDefaultLibrary;
-{
-    static dispatch_once_t pred = 0;
-    static ALAssetsLibrary *library = nil;
-    dispatch_once(&pred, ^{
-        library = [[ALAssetsLibrary alloc] init];
-    });
-    return library;
-}
-
-/**
- *  低版本小于8.0测试系统相册授权状态
- *
- *  @param authorBlock 系统相册授权回调
- */
-+ (void)lowVersionTestLibraryAuthor:(CJGAVSDKTSAssetsManagerAuthorBlock)authorBlock;
-{
-    if (!authorBlock) return;
-    NSError *error = nil;
-    if ([self hasAuthor]){
-        authorBlock(error);
-        return;
-    };
-    
-    // 测试授权
-    [[self getDefaultLibrary] enumerateGroupsWithTypes:ALAssetsGroupLibrary usingBlock:^(ALAssetsGroup *group, BOOL *stop) {
-        *stop = YES;
-        // 为空时是最后一次执行
-        if (!group) {
-            NSError *error = nil;
-            authorBlock(error);
-        }
-    } failureBlock:^(NSError *error) {
-        authorBlock(error);
-    }];
+    PHAuthorizationStatus status = [PHPhotoLibrary authorizationStatus];
+    return status == PHAuthorizationStatusNotDetermined;
 }
 
 /**
@@ -187,14 +119,6 @@
         authorBlock(error);
         return;
     };
-    
-    if ([[[UIDevice currentDevice] systemVersion] intValue] < 8.0) {
-        [self lowVersionTestLibraryAuthor:^(NSError * _Nonnull error) {
-            authorBlock(error);
-        }];
-        return;
-    }
-    
     [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
         
         NSError *error = nil;

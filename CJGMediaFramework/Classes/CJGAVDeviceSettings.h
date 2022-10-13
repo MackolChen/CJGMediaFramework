@@ -80,14 +80,6 @@ typedef void (^CJGAVAssetsLibraryAuthorBlock)(NSError *error);
  *  @return 是否未决定授权
  */
 + (BOOL)notDetermined;
-
-/**
- *  低版本小于8.0测试系统相册授权状态
- *
- *  @param authorBlock 系统相册授权回调
- */
-+ (void)lowVersionTestLibraryAuthor:(CJGAVSDKTSAssetsManagerAuthorBlock)authorBlock;
-
 /**
  *  测试系统相册授权状态
  *

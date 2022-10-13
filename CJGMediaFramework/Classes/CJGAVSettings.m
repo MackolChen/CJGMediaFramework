@@ -51,12 +51,6 @@
 + (void)openAppSettings  NS_AVAILABLE_IOS(8_0);
 {
     if ([self getSystemFloatVersion] < 8.0) return;
-    if (@available(iOS 10.0, *)) {
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString: UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];
-    } else {
-        // Fallback on earlier versions
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString: UIApplicationOpenSettingsURLString]];
-        
-    }
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];
 }
 @end

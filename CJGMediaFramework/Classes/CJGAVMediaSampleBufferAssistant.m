@@ -12,7 +12,6 @@
 
 /**
  获取CMSampleBufferRef音频数据地址
- @param ref 原始数据buffer
  @return 数据地址
  */
 + (int8_t *)processSampleBuffer:(CMSampleBufferRef)buffer;

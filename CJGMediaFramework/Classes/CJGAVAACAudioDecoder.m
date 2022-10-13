@@ -69,7 +69,7 @@ const uint32_t CONST_BUFFER_SIZE = 0x10000;
      ioNumPackets#> 在输入端，要读取的包的数量，在输出端，要读取的包的数量,数据包实际阅读。
      outBuffer#> outBuffer应该是指向用户分配内存的指针。
      */
-    OSStatus status = AudioFileReadPackets(audioFileID, NO, &bytes, audioStreamPacketDescrption, readedPacket, &packets, buffer->mAudioData);    NSAssert(status == noErr, ([NSString stringWithFormat:@"error status %d", status]));
+    OSStatus status;
 
     if (packets > 0) {
         buffer->mAudioDataByteSize = bytes;

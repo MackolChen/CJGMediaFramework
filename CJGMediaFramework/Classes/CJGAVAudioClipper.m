@@ -336,7 +336,6 @@
 {
     if(self.clipAudio.clipStatus == status) return;
     self.clipAudio.clipStatus = status;
-    
     CJGRunSynchronouslyOnMainQueue(^{
         if ([self.clipDelegate respondsToSelector:@selector(didClippingAudioStatusChanged:onAudioClip:)]) {
             [self.clipDelegate didClippingAudioStatusChanged:status onAudioClip:self];
@@ -344,10 +343,10 @@
         
         if (status == CJGAVClipStatusCompleted) {
             if ([self.clipDelegate respondsToSelector:@selector(didClipedAudioResult:onAudioClip:)]) {
-                [self.clipDelegate didClipedAudioResult:_clipAudio onAudioClip:self];
+                [self.clipDelegate didClipedAudioResult:self->_clipAudio onAudioClip:self];
             }
             if ([self.clipDelegate respondsToSelector:@selector(didCompletedClipAudioOutputPath:onAudioClip:)]) {
-                [self.clipDelegate didCompletedClipAudioOutputPath:_clipAudio.outputFilePath onAudioClip:self];
+                [self.clipDelegate didCompletedClipAudioOutputPath:self->_clipAudio.outputFilePath onAudioClip:self];
             }
             
         }

@@ -198,18 +198,18 @@
 		0CB507AE946157076C55F1E42920691A /* Pods-CJGMediaFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGMediaFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		119A26C13D73C652148D985DBD333A0D /* Pods-CJGMediaFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJGMediaFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		16EEA5F98A07E9DE2C40925D33FA8E7A /* Pods-CJGMediaFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJGMediaFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2213122A3AD94B585409A8AD32303E4B /* Pods-CJGMediaFramework_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CJGMediaFramework_Example"; path = Pods_CJGMediaFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2213122A3AD94B585409A8AD32303E4B /* Pods_CJGMediaFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJGMediaFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		223276DA448C45AFAAEB793BE0C7E863 /* Pods-CJGMediaFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGMediaFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		234EBDB744A9D42B9F2BE31048F0C013 /* Pods-CJGMediaFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJGMediaFramework_Example.modulemap"; sourceTree = "<group>"; };
 		23F91FB3E3A0DB4B329109CA29AD1154 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		33E8005A9C67B24833A47F296AB46FA8 /* Pods-CJGMediaFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGMediaFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		34317E4A915698BDEA269E52CC4EE4AD /* Pods-CJGMediaFramework_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CJGMediaFramework_Tests"; path = Pods_CJGMediaFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34317E4A915698BDEA269E52CC4EE4AD /* Pods_CJGMediaFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJGMediaFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C78299AEAB8BE6D35D93292DD276AE /* Pods-CJGMediaFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJGMediaFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		3CB186AA2E14FAFBC65ACACA8F82FB95 /* CJGMediaFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJGMediaFramework-umbrella.h"; sourceTree = "<group>"; };
 		4B2854722F87EF83C80EA07AFF1ECE10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4BE460F205DFC67CDF3752593FA0E7FE /* Pods-CJGMediaFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGMediaFramework_Tests-Info.plist"; sourceTree = "<group>"; };
 		4D6DE7969A9F254AACCC4455A5D134CF /* Pods-CJGMediaFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJGMediaFramework_Example-dummy.m"; sourceTree = "<group>"; };
-		4D734DCCFA7C6F08FD2ADAB4830585EC /* CJGMediaFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CJGMediaFramework; path = CJGMediaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D734DCCFA7C6F08FD2ADAB4830585EC /* CJGMediaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJGMediaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		525F3F1E28F7C43D00421F56 /* CJGAVAACEncodeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAACEncodeOptions.h; path = CJGMediaFramework/Classes/CJGAVAACEncodeOptions.h; sourceTree = "<group>"; };
 		525F3F1F28F7C43D00421F56 /* CJGAVAudioClipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioClipper.h; path = CJGMediaFramework/Classes/CJGAVAudioClipper.h; sourceTree = "<group>"; };
 		525F3F2028F7C43D00421F56 /* CJGAVSingleAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVSingleAudioPlayer.m; path = CJGMediaFramework/Classes/CJGAVSingleAudioPlayer.m; sourceTree = "<group>"; };
@@ -633,9 +633,9 @@
 		53998A177EEB5C9F75EC5857E5E38757 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D734DCCFA7C6F08FD2ADAB4830585EC /* CJGMediaFramework */,
-				2213122A3AD94B585409A8AD32303E4B /* Pods-CJGMediaFramework_Example */,
-				34317E4A915698BDEA269E52CC4EE4AD /* Pods-CJGMediaFramework_Tests */,
+				4D734DCCFA7C6F08FD2ADAB4830585EC /* CJGMediaFramework.framework */,
+				2213122A3AD94B585409A8AD32303E4B /* Pods_CJGMediaFramework_Example.framework */,
+				34317E4A915698BDEA269E52CC4EE4AD /* Pods_CJGMediaFramework_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -829,7 +829,7 @@
 			);
 			name = "Pods-CJGMediaFramework_Tests";
 			productName = Pods_CJGMediaFramework_Tests;
-			productReference = 34317E4A915698BDEA269E52CC4EE4AD /* Pods-CJGMediaFramework_Tests */;
+			productReference = 34317E4A915698BDEA269E52CC4EE4AD /* Pods_CJGMediaFramework_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F555A45CC79A9180F70C6F52D4203363 /* Pods-CJGMediaFramework_Example */ = {
@@ -848,7 +848,7 @@
 			);
 			name = "Pods-CJGMediaFramework_Example";
 			productName = Pods_CJGMediaFramework_Example;
-			productReference = 2213122A3AD94B585409A8AD32303E4B /* Pods-CJGMediaFramework_Example */;
+			productReference = 2213122A3AD94B585409A8AD32303E4B /* Pods_CJGMediaFramework_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FA1F8BA273B1AE3C82655E3014B15B42 /* CJGMediaFramework */ = {
@@ -866,7 +866,7 @@
 			);
 			name = CJGMediaFramework;
 			productName = CJGMediaFramework;
-			productReference = 4D734DCCFA7C6F08FD2ADAB4830585EC /* CJGMediaFramework */;
+			productReference = 4D734DCCFA7C6F08FD2ADAB4830585EC /* CJGMediaFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
