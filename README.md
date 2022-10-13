@@ -1,2 +1,30 @@
 # CJGMediaFramework
+
+[![CI Status](https://img.shields.io/travis/MackolChen/CJGMediaFramework.svg?style=flat)](https://travis-ci.org/MackolChen/CJGMediaFramework)
+[![Version](https://img.shields.io/cocoapods/v/CJGMediaFramework.svg?style=flat)](https://cocoapods.org/pods/CJGMediaFramework)
+[![License](https://img.shields.io/cocoapods/l/CJGMediaFramework.svg?style=flat)](https://cocoapods.org/pods/CJGMediaFramework)
+[![Platform](https://img.shields.io/cocoapods/p/CJGMediaFramework.svg?style=flat)](https://cocoapods.org/pods/CJGMediaFramework)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+CJGMediaFramework is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'CJGMediaFramework'
+```
+
+## Author
+
+MackolChen, chenjg@tiens.com
+
+## License
+
+CJGMediaFramework is available under the MIT license. See the LICENSE file for more info.
 音视频处理

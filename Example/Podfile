@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CJGMediaFramework_Example' do
+  pod 'CJGMediaFramework', :path => '../'
+
+  target 'CJGMediaFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
