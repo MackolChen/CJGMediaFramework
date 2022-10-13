@@ -367,6 +367,7 @@
 		525F3FB928F7C44300421F56 /* CJGAVRecordVideoCoreBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVRecordVideoCoreBase.m; path = CJGMediaFramework/Classes/CJGAVRecordVideoCoreBase.m; sourceTree = "<group>"; };
 		525F3FBA28F7C44300421F56 /* CJGAVSecondAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVSecondAudioRecorder.m; path = CJGMediaFramework/Classes/CJGAVSecondAudioRecorder.m; sourceTree = "<group>"; };
 		525F3FBB28F7C44300421F56 /* CJGAVTimeRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVTimeRange.h; path = CJGMediaFramework/Classes/CJGAVTimeRange.h; sourceTree = "<group>"; };
+		525F405928F7DD1800421F56 /* CJGMediaFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJGMediaFramework.h; sourceTree = "<group>"; };
 		5FA8D38CF66475230C34308D75D2DB55 /* CJGMediaFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJGMediaFramework.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		770AB9F8E6AACC1ADA8242A78314F9E0 /* CJGMediaFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGMediaFramework.release.xcconfig; sourceTree = "<group>"; };
@@ -455,6 +456,7 @@
 		4A6DFAAA5DEF58280B94B5B62A40359F /* CJGMediaFramework */ = {
 			isa = PBXGroup;
 			children = (
+				525F405928F7DD1800421F56 /* CJGMediaFramework.h */,
 				525F3F6728F7C44000421F56 /* .gitkeep */,
 				525F3F7228F7C44000421F56 /* C+ */,
 				525F3F3028F7C43E00421F56 /* CJGAVAACAudioDecoder.h */,
