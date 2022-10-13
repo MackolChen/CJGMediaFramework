@@ -1,0 +1,16 @@
+PODS:
+  - CJGMediaFramework (0.1.0)
+
+DEPENDENCIES:
+  - CJGMediaFramework (from `../`)
+
+EXTERNAL SOURCES:
+  CJGMediaFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJGMediaFramework: a0b83d87c8634e196fa3a11e19ebce332a69ea53
+
+PODFILE CHECKSUM: cd953da211e7e7d2617c8ac903714b709ab3de15
+
+COCOAPODS: 1.11.3

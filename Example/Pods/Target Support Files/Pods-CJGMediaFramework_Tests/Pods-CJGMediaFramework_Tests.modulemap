@@ -1,0 +1,6 @@
+framework module Pods_CJGMediaFramework_Tests {
+  umbrella header "Pods-CJGMediaFramework_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
