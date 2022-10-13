@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'MackolChen' => 'engineer_macchen@163.com' }
   s.source           = { :git => 'https://github.com/MackolChen/CJGMediaFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'CJGMediaFramework/Classes/**/*'
