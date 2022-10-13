@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJGMediaFramework'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = '音视频处理'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,6 @@ TODO: Add long description of the pod here.
    # :OTHER_LDFLAGS等价于'OTHER_LDFLAGS'
    # :CLANG_CXX_LANGUAGE_STANDARD等价于'CLANG_CXX_LANGUAGE_STANDARD'
    # :CLANG_CXX_LIBRARY等价于'CLANG_CXX_LIBRARY'
-   }
    s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC',
      'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
      'CLANG_CXX_LIBRARY' => 'libc++' }
