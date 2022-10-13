@@ -11,6 +11,7 @@
 		40174E38BA6191576173D61ECEAC5EB3 /* Pods-CJGMediaFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C78299AEAB8BE6D35D93292DD276AE /* Pods-CJGMediaFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42A74C592A42475C1B0903BAF98E0BF8 /* CJGMediaFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB186AA2E14FAFBC65ACACA8F82FB95 /* CJGMediaFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47436D51B942C79828919248FF6D2291 /* Pods-CJGMediaFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21551B554BA024A354FB6206AF88173 /* Pods-CJGMediaFramework_Tests-dummy.m */; };
+		524042E928F7FF7B00EDE318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524042E828F7FF6F00EDE318 /* Foundation.framework */; };
 		525F3FBC28F7C44300421F56 /* CJGAVAACEncodeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 525F3F1E28F7C43D00421F56 /* CJGAVAACEncodeOptions.h */; };
 		525F3FBD28F7C44300421F56 /* CJGAVAudioClipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 525F3F1F28F7C43D00421F56 /* CJGAVAudioClipper.h */; };
 		525F3FBE28F7C44300421F56 /* CJGAVSingleAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F3F2028F7C43D00421F56 /* CJGAVSingleAudioPlayer.m */; };
@@ -168,11 +169,9 @@
 		525F405628F7C44300421F56 /* CJGAVRecordVideoCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F3FB928F7C44300421F56 /* CJGAVRecordVideoCoreBase.m */; };
 		525F405728F7C44300421F56 /* CJGAVSecondAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F3FBA28F7C44300421F56 /* CJGAVSecondAudioRecorder.m */; };
 		525F405828F7C44300421F56 /* CJGAVTimeRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 525F3FBB28F7C44300421F56 /* CJGAVTimeRange.h */; };
+		525F405B28F7FF0E00421F56 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 525F405A28F7FF0E00421F56 /* libc++.tbd */; };
 		58FFEC87C052CF0C35179E4D8F55EB29 /* Pods-CJGMediaFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0560DA90A2FEA07020AD6331E35F20C3 /* Pods-CJGMediaFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62E682AF6800F4F477FC048A2BA1CD62 /* CJGMediaFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6347FD8D58BDCA81ADB5B851930D66 /* CJGMediaFramework-dummy.m */; };
-		A510FD95287207D391F5C2BBFA3972FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D9011448A51FFF5AD6AB6119D7479D53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F37F14A1508B39C762A86FE86220C10D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +209,7 @@
 		4BE460F205DFC67CDF3752593FA0E7FE /* Pods-CJGMediaFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGMediaFramework_Tests-Info.plist"; sourceTree = "<group>"; };
 		4D6DE7969A9F254AACCC4455A5D134CF /* Pods-CJGMediaFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJGMediaFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		4D734DCCFA7C6F08FD2ADAB4830585EC /* CJGMediaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJGMediaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		524042E828F7FF6F00EDE318 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		525F3F1E28F7C43D00421F56 /* CJGAVAACEncodeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAACEncodeOptions.h; path = CJGMediaFramework/Classes/CJGAVAACEncodeOptions.h; sourceTree = "<group>"; };
 		525F3F1F28F7C43D00421F56 /* CJGAVAudioClipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioClipper.h; path = CJGMediaFramework/Classes/CJGAVAudioClipper.h; sourceTree = "<group>"; };
 		525F3F2028F7C43D00421F56 /* CJGAVSingleAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVSingleAudioPlayer.m; path = CJGMediaFramework/Classes/CJGAVSingleAudioPlayer.m; sourceTree = "<group>"; };
@@ -368,8 +368,8 @@
 		525F3FBA28F7C44300421F56 /* CJGAVSecondAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVSecondAudioRecorder.m; path = CJGMediaFramework/Classes/CJGAVSecondAudioRecorder.m; sourceTree = "<group>"; };
 		525F3FBB28F7C44300421F56 /* CJGAVTimeRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVTimeRange.h; path = CJGMediaFramework/Classes/CJGAVTimeRange.h; sourceTree = "<group>"; };
 		525F405928F7DD1800421F56 /* CJGMediaFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJGMediaFramework.h; sourceTree = "<group>"; };
+		525F405A28F7FF0E00421F56 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		5FA8D38CF66475230C34308D75D2DB55 /* CJGMediaFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJGMediaFramework.modulemap; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		770AB9F8E6AACC1ADA8242A78314F9E0 /* CJGMediaFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGMediaFramework.release.xcconfig; sourceTree = "<group>"; };
 		8ECE2E1B0EBDE48252CF514AC68E8926 /* CJGMediaFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJGMediaFramework-Info.plist"; sourceTree = "<group>"; };
 		933A7B3ADC8922190B49441FBF1A83FD /* Pods-CJGMediaFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJGMediaFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -390,7 +390,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A510FD95287207D391F5C2BBFA3972FC /* Foundation.framework in Frameworks */,
+				525F405B28F7FF0E00421F56 /* libc++.tbd in Frameworks */,
+				524042E928F7FF7B00EDE318 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +399,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F37F14A1508B39C762A86FE86220C10D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +406,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9011448A51FFF5AD6AB6119D7479D53 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,7 +642,7 @@
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				524042E828F7FF6F00EDE318 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -681,6 +680,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				525F405A28F7FF0E00421F56 /* libc++.tbd */,
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
