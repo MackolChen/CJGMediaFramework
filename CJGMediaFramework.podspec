@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJGMediaFramework'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '音视频处理'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'MackolChen' => 'engineer_macchen@163.com' }
   s.source           = { :git => 'https://github.com/MackolChen/CJGMediaFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+#  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'CJGMediaFramework/Classes/**/*'
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'CJGMediaFramework' => ['CJGMediaFramework/Assets/*.png']
   # }
-
+  VALID_ARCHS = ['armv7s','arm64','x86_64','armv7','arm64e']
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'Foundation','UIKit', 'libc++'
   # s.dependency 'AFNetworking', '~> 2.3'
