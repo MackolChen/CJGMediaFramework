@@ -7,15 +7,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'CJGMediaFramework'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = '音视频处理'
   s.platform = :ios, '10.0'
-  s.pod_target_xcconfig = { :OTHER_LDFLAGS => '-lObjC',
-     :CLANG_CXX_LANGUAGE_STANDARD => 'c++11',
-     :CLANG_CXX_LIBRARY => 'libc++' }
-  s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC',
-     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
-     'CLANG_CXX_LIBRARY' => 'libc++' }
+  s.pod_target_xcconfig     = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES',
+                                'CLANG_CXX_LANGUAGE_STANDARD' => 'c++17',
+                                'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO',
+                                'CLANG_CXX_LIBRARY' => 'libc++'
+                              }
   s.libraries = 'c++','z'
   s.homepage         = 'https://github.com/MackolChen/CJGMediaFramework.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
