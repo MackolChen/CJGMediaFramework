@@ -7,9 +7,13 @@
 #
 
 Pod::Spec.new do |s|
+#  name：私有库包名
   s.name             = 'CJGMediaFramework'
-  s.version          = '1.0.6'
+#  version：当前版本号
+  s.version          = '1.0.7'
   s.summary          = '音视频处理'
+#  platform：最低支持系统
+#  s.platform = :ios, '8.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -20,16 +24,20 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
+#   pod_target_xcconfig：当前库的Build Settings
    s.pod_target_xcconfig = { :OTHER_LDFLAGS => '-lObjC',
      :CLANG_CXX_LANGUAGE_STANDARD => 'c++11',
      :CLANG_CXX_LIBRARY => 'libc++' }
-    
    # :OTHER_LDFLAGS等价于'OTHER_LDFLAGS'
    # :CLANG_CXX_LANGUAGE_STANDARD等价于'CLANG_CXX_LANGUAGE_STANDARD'
    # :CLANG_CXX_LIBRARY等价于'CLANG_CXX_LIBRARY'
+#   user_target_xcconfig： project中的Build Settings
    s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC',
      'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
      'CLANG_CXX_LIBRARY' => 'libc++' }
+#   libraries：系统libs
+   s.libraries = 'libc++'
+   #等价于：s.libraries = ['sqlite3', 'stdc++']
 
   s.homepage         = 'https://github.com/MackolChen/CJGMediaFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
