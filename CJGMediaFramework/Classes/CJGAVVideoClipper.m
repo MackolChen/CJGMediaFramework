@@ -216,7 +216,7 @@
     _exporter.shouldOptimizeForNetworkUse = YES;
     
     _exporter.videoSettings = @{
-                                AVVideoCodecKey:AVVideoCodecH264,
+                                AVVideoCodecKey:AVVideoCodecTypeH264,
                                 AVVideoWidthKey:[NSNumber numberWithInt:_renderSize.width],
                                 AVVideoHeightKey:[NSNumber numberWithInt:_renderSize.height],
                                 AVVideoCompressionPropertiesKey:@{

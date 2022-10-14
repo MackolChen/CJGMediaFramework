@@ -44,13 +44,4 @@
 {
     return [[UIDevice currentDevice] systemVersion];
 }
-
-/**
- *  开启应用设置页面
- */
-+ (void)openAppSettings  NS_AVAILABLE_IOS(8_0);
-{
-    if ([self getSystemFloatVersion] < 8.0) return;
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];
-}
 @end

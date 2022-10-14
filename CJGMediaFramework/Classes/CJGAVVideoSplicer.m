@@ -214,7 +214,7 @@
     } else {
         // Fallback on earlier versions
         _exporter.videoSettings = @{
-                                    AVVideoCodecKey:AVVideoCodecH264,
+                                    AVVideoCodecKey:AVVideoCodecTypeH264,
                                     AVVideoWidthKey:[NSNumber numberWithInt:_renderSize.width],
                                     AVVideoHeightKey:[NSNumber numberWithInt:_renderSize.height],
                                     AVVideoCompressionPropertiesKey:@{

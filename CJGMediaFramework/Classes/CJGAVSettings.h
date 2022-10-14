@@ -38,12 +38,6 @@ NS_ASSUME_NONNULL_BEGIN
  *  @return 系统版本号 e.g. @"4.0.2"
  */
 + (NSString *)getSystemVersion;
-
-/**
- *  开启应用设置页面
- */
-+ (void)openAppSettings;
-
 @end
 
 NS_ASSUME_NONNULL_END

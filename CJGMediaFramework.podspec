@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'CJGMediaFramework'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = '音视频处理'
   s.platform = :ios, '10.0'
   s.pod_target_xcconfig     = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES',
