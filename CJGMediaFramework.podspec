@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #  name：私有库包名
   s.name             = 'CJGMediaFramework'
 #  version：当前版本号
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = '音视频处理'
 #  platform：最低支持系统
 #  s.platform = :ios, '8.0'
@@ -36,10 +36,9 @@ TODO: Add long description of the pod here.
      'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
      'CLANG_CXX_LIBRARY' => 'libc++' }
 #   libraries：系统libs
-   s.libraries = 'c++'
-   #等价于：s.libraries = ['sqlite3', 'stdc++']
+   s.libraries = 'c++'，'z'
 
-  s.homepage         = 'https://github.com/MackolChen/CJGMediaFramework'
+  s.homepage         = 'https://github.com/MackolChen/CJGMediaFramework.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MackolChen' => 'engineer_macchen@163.com' }
@@ -55,6 +54,6 @@ TODO: Add long description of the pod here.
   # }
   valid_archs = ['armv7s','arm64','x86_64','armv7','arm64e']
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = ['Foundation','UIKit', 'libc++']
+   s.frameworks = ['Foundation','UIKit']
   # s.dependency 'AFNetworking', '~> 2.3'
 end
