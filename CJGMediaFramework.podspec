@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name                  = 'CJGMediaFramework'
-  s.version               = '1.1.4'
+  s.version               = '1.1.5'
   s.summary               = '音视频处理'
   s.platform              = :ios, '10.0'
   s.homepage              = 'https://github.com/MackolChen/CJGMediaFramework'
