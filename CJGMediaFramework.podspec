@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC',
      'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
      'CLANG_CXX_LIBRARY' => 'libc++' }
-  s.libraries = 'c++'，'z'
+  s.libraries = 'c++','z'
   s.homepage         = 'https://github.com/MackolChen/CJGMediaFramework.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MackolChen' => 'engineer_macchen@163.com' }
