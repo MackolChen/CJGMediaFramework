@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'CJGMediaFramework'
-  s.version          = '1.0.9'
+  s.version          = '1.1.1'
   s.summary          = '音视频处理'
   s.platform = :ios, '10.0'
   s.pod_target_xcconfig = { :OTHER_LDFLAGS => '-lObjC',
