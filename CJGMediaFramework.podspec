@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #  name：私有库包名
   s.name             = 'CJGMediaFramework'
 #  version：当前版本号
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = '音视频处理'
 #  platform：最低支持系统
 #  s.platform = :ios, '8.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
      'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
      'CLANG_CXX_LIBRARY' => 'libc++' }
 #   libraries：系统libs
-   s.libraries = 'libc++'
+   s.libraries = 'c++'
    #等价于：s.libraries = ['sqlite3', 'stdc++']
 
   s.homepage         = 'https://github.com/MackolChen/CJGMediaFramework'
