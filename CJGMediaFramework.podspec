@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name                  = 'CJGMediaFramework'
-  s.version               = '1.1.6'
+  s.version               = '1.1.7'
   s.summary               = '音视频处理'
   s.platform              = :ios, '10.0'
   s.homepage              = 'https://github.com/MackolChen/CJGMediaFramework'
@@ -16,13 +16,5 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/MackolChen/CJGMediaFramework.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.source_files          = 'CJGMediaFramework/Classes/**/*'
-  s.frameworks            = ['libc++']
   s.requires_arc          = true
-  s.libraries             = 'c++'
-  #  s.pod_target_xcconfig     = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES',
-  #                                'CLANG_CXX_LANGUAGE_STANDARD' => 'c++17',
-  #                                'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'
-  #  }
-  #
-  #  valid_archs = ['armv7s','arm64','x86_64','armv7','arm64e']
 end
