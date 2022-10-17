@@ -169,6 +169,7 @@
 		52D6A12828F959BF003FD37D /* AudioResample.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08B28F959BE003FD37D /* AudioResample.h */; };
 		52D6A12928F959BF003FD37D /* Mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08C28F959BE003FD37D /* Mutex.h */; };
 		52D6A12A28F959BF003FD37D /* AudioStretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A08D28F959BE003FD37D /* AudioStretch.cpp */; };
+		52D6A12C28F9626F003FD37D /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6A12B28F9626F003FD37D /* libc++.1.tbd */; };
 		58FFEC87C052CF0C35179E4D8F55EB29 /* Pods-CJGMediaFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0560DA90A2FEA07020AD6331E35F20C3 /* Pods-CJGMediaFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62E682AF6800F4F477FC048A2BA1CD62 /* CJGMediaFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6347FD8D58BDCA81ADB5B851930D66 /* CJGMediaFramework-dummy.m */; };
 /* End PBXBuildFile section */
@@ -366,6 +367,7 @@
 		52D6A08B28F959BE003FD37D /* AudioResample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioResample.h; sourceTree = "<group>"; };
 		52D6A08C28F959BE003FD37D /* Mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mutex.h; sourceTree = "<group>"; };
 		52D6A08D28F959BE003FD37D /* AudioStretch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioStretch.cpp; sourceTree = "<group>"; };
+		52D6A12B28F9626F003FD37D /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		5FA8D38CF66475230C34308D75D2DB55 /* CJGMediaFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJGMediaFramework.modulemap; sourceTree = "<group>"; };
 		770AB9F8E6AACC1ADA8242A78314F9E0 /* CJGMediaFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGMediaFramework.release.xcconfig; sourceTree = "<group>"; };
 		8ECE2E1B0EBDE48252CF514AC68E8926 /* CJGMediaFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJGMediaFramework-Info.plist"; sourceTree = "<group>"; };
@@ -387,6 +389,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D6A12C28F9626F003FD37D /* libc++.1.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,6 +677,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52D6A12B28F9626F003FD37D /* libc++.1.tbd */,
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;

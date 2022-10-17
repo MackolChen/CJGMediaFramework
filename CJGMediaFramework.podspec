@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name                  = 'CJGMediaFramework'
-  s.version               = '1.1.8'
+  s.version               = '1.1.9'
   s.summary               = '音视频处理'
   s.platform              = :ios, '10.0'
   s.homepage              = 'https://github.com/MackolChen/CJGMediaFramework'
@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.source_files          = 'CJGMediaFramework/Classes/**/*'
   s.requires_arc          = true
+  s.libraries = 'c++.1'
 end
