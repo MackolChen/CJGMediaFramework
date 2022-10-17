@@ -13,103 +13,103 @@
 		47436D51B942C79828919248FF6D2291 /* Pods-CJGMediaFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21551B554BA024A354FB6206AF88173 /* Pods-CJGMediaFramework_Tests-dummy.m */; };
 		525D11F028FD2628006B4482 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 525D11EC28FD2518006B4482 /* libc++.tbd */; };
 		525F400528F7C44300421F56 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 525F3F6728F7C44000421F56 /* .gitkeep */; };
-		52D6A08E28F959BE003FD37D /* CJGAVH264VideoEncoderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF028F959B9003FD37D /* CJGAVH264VideoEncoderInterface.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A08E28F959BE003FD37D /* CJGAVH264VideoEncoderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF028F959B9003FD37D /* CJGAVH264VideoEncoderInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A08F28F959BE003FD37D /* CJGAVDeviceSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D69FF128F959B9003FD37D /* CJGAVDeviceSettings.m */; };
 		52D6A09028F959BE003FD37D /* CJGAVDeviceAthorizationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D69FF228F959B9003FD37D /* CJGAVDeviceAthorizationSettings.m */; };
-		52D6A09128F959BE003FD37D /* CJGAVVideoInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF328F959B9003FD37D /* CJGAVVideoInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A09128F959BE003FD37D /* CJGAVVideoInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF328F959B9003FD37D /* CJGAVVideoInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A09228F959BE003FD37D /* CJGAVAACEncodeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D69FF428F959B9003FD37D /* CJGAVAACEncodeOptions.m */; };
 		52D6A09328F959BE003FD37D /* CJGAVFirstAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D69FF528F959B9003FD37D /* CJGAVFirstAudioRecorder.m */; };
-		52D6A09428F959BE003FD37D /* CJGAVVideoClipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF628F959B9003FD37D /* CJGAVVideoClipper.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A09528F959BE003FD37D /* CJGAVEncodeVideoSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF728F959B9003FD37D /* CJGAVEncodeVideoSetting.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A09628F959BE003FD37D /* CJGAVMeidaTimelineSlice.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF828F959B9003FD37D /* CJGAVMeidaTimelineSlice.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A09728F959BE003FD37D /* CJGAVMediaSampleBufferAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF928F959B9003FD37D /* CJGAVMediaSampleBufferAssistant.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A09828F959BE003FD37D /* CJGAVSingleAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FFA28F959B9003FD37D /* CJGAVSingleAudioPlayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A09428F959BE003FD37D /* CJGAVVideoClipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF628F959B9003FD37D /* CJGAVVideoClipper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A09528F959BE003FD37D /* CJGAVEncodeVideoSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF728F959B9003FD37D /* CJGAVEncodeVideoSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A09628F959BE003FD37D /* CJGAVMeidaTimelineSlice.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF828F959B9003FD37D /* CJGAVMeidaTimelineSlice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A09728F959BE003FD37D /* CJGAVMediaSampleBufferAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FF928F959B9003FD37D /* CJGAVMediaSampleBufferAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A09828F959BE003FD37D /* CJGAVSingleAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FFA28F959B9003FD37D /* CJGAVSingleAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A09928F959BE003FD37D /* CJGAVAACAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D69FFB28F959B9003FD37D /* CJGAVAACAudioEncoder.m */; };
-		52D6A09A28F959BE003FD37D /* CJGAVAudioPitchFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FFC28F959B9003FD37D /* CJGAVAudioPitchFactory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A09A28F959BE003FD37D /* CJGAVAudioPitchFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FFC28F959B9003FD37D /* CJGAVAudioPitchFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A09B28F959BE003FD37D /* CJGAVAudioPitchEngineRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D69FFD28F959B9003FD37D /* CJGAVAudioPitchEngineRecorder.m */; };
-		52D6A09C28F959BE003FD37D /* CJGAVH246VideoDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FFE28F959B9003FD37D /* CJGAVH246VideoDecoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A09C28F959BE003FD37D /* CJGAVH246VideoDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D69FFE28F959B9003FD37D /* CJGAVH246VideoDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A09D28F959BE003FD37D /* CJGProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D69FFF28F959B9003FD37D /* CJGProxy.m */; };
 		52D6A09E28F959BE003FD37D /* CJGAVRecordCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00028F959B9003FD37D /* CJGAVRecordCoreBase.m */; };
-		52D6A09F28F959BE003FD37D /* CJGAVPlayCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00128F959B9003FD37D /* CJGAVPlayCoreBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A09F28F959BE003FD37D /* CJGAVPlayCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00128F959B9003FD37D /* CJGAVPlayCoreBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0A028F959BE003FD37D /* CJGAVInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00228F959B9003FD37D /* CJGAVInfo.m */; };
-		52D6A0A128F959BE003FD37D /* CJGAVMixerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00328F959B9003FD37D /* CJGAVMixerOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0A228F959BE003FD37D /* CJGAVRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00428F959B9003FD37D /* CJGAVRecorderOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0A128F959BE003FD37D /* CJGAVMixerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00328F959B9003FD37D /* CJGAVMixerOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0A228F959BE003FD37D /* CJGAVRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00428F959B9003FD37D /* CJGAVRecorderOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0A328F959BE003FD37D /* CJGAVSingleAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00528F959B9003FD37D /* CJGAVSingleAudioPlayer.m */; };
 		52D6A0A428F959BE003FD37D /* CJGAVClipperOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00628F959B9003FD37D /* CJGAVClipperOptions.m */; };
 		52D6A0A528F959BE003FD37D /* CJGAVAudioClipperOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00728F959B9003FD37D /* CJGAVAudioClipperOptions.m */; };
 		52D6A0A628F959BE003FD37D /* CJGAVVideoClipper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00828F959B9003FD37D /* CJGAVVideoClipper.m */; };
-		52D6A0A728F959BE003FD37D /* CJGAVSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00928F959B9003FD37D /* CJGAVSettings.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0A728F959BE003FD37D /* CJGAVSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00928F959B9003FD37D /* CJGAVSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0A828F959BE003FD37D /* CJGAVAudioMixerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00A28F959B9003FD37D /* CJGAVAudioMixerOptions.m */; };
-		52D6A0A928F959BE003FD37D /* CJGAVH264VideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00B28F959BA003FD37D /* CJGAVH264VideoEncoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0A928F959BE003FD37D /* CJGAVH264VideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00B28F959BA003FD37D /* CJGAVH264VideoEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0AA28F959BE003FD37D /* CJGAVThreeAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00C28F959BA003FD37D /* CJGAVThreeAudioRecorder.m */; };
 		52D6A0AB28F959BE003FD37D /* CJGAVMediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00D28F959BA003FD37D /* CJGAVMediaInfo.m */; };
-		52D6A0AC28F959BE003FD37D /* CJGAVAudioMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00E28F959BA003FD37D /* CJGAVAudioMixer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0AC28F959BE003FD37D /* CJGAVAudioMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A00E28F959BA003FD37D /* CJGAVAudioMixer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0AD28F959BE003FD37D /* CJGAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A00F28F959BA003FD37D /* CJGAVAudioPlayer.m */; };
 		52D6A0AE28F959BE003FD37D /* CJGAVSplicerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A01028F959BA003FD37D /* CJGAVSplicerOptions.m */; };
 		52D6A0AF28F959BE003FD37D /* CJGAVVideoClipperOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A01128F959BA003FD37D /* CJGAVVideoClipperOptions.m */; };
 		52D6A0B028F959BE003FD37D /* CJGAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A01228F959BA003FD37D /* CJGAVPlayer.m */; };
-		52D6A0B128F959BE003FD37D /* CJGAVMediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01328F959BA003FD37D /* CJGAVMediaInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0B228F959BE003FD37D /* CJGAVVideoMixerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01428F959BA003FD37D /* CJGAVVideoMixerOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0B128F959BE003FD37D /* CJGAVMediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01328F959BA003FD37D /* CJGAVMediaInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0B228F959BE003FD37D /* CJGAVVideoMixerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01428F959BA003FD37D /* CJGAVVideoMixerOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0B328F959BE003FD37D /* CJGAVOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A01528F959BA003FD37D /* CJGAVOptions.m */; };
-		52D6A0B428F959BE003FD37D /* CJGAVAudioPitchEngineInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01628F959BA003FD37D /* CJGAVAudioPitchEngineInterface.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0B528F959BE003FD37D /* CJGAVMediaAssetOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01728F959BA003FD37D /* CJGAVMediaAssetOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0B628F959BE003FD37D /* CJGAVOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01828F959BA003FD37D /* CJGAVOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0B728F959BE003FD37D /* CJGAVAACAudioEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01928F959BA003FD37D /* CJGAVAACAudioEncoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0B828F959BE003FD37D /* CJGAVAudioPitchEngineRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01A28F959BA003FD37D /* CJGAVAudioPitchEngineRecorder.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0B928F959BE003FD37D /* CJGAVRecordCoreBaseInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01B28F959BA003FD37D /* CJGAVRecordCoreBaseInterface.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0BA28F959BE003FD37D /* CJGAVSecondAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01C28F959BA003FD37D /* CJGAVSecondAudioRecorder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0B428F959BE003FD37D /* CJGAVAudioPitchEngineInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01628F959BA003FD37D /* CJGAVAudioPitchEngineInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0B528F959BE003FD37D /* CJGAVMediaAssetOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01728F959BA003FD37D /* CJGAVMediaAssetOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0B628F959BE003FD37D /* CJGAVOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01828F959BA003FD37D /* CJGAVOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0B728F959BE003FD37D /* CJGAVAACAudioEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01928F959BA003FD37D /* CJGAVAACAudioEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0B828F959BE003FD37D /* CJGAVAudioPitchEngineRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01A28F959BA003FD37D /* CJGAVAudioPitchEngineRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0B928F959BE003FD37D /* CJGAVRecordCoreBaseInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01B28F959BA003FD37D /* CJGAVRecordCoreBaseInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0BA28F959BE003FD37D /* CJGAVSecondAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A01C28F959BA003FD37D /* CJGAVSecondAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0BB28F959BE003FD37D /* CJGAVRTMPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A01D28F959BA003FD37D /* CJGAVRTMPFrame.m */; };
 		52D6A0BC28F959BE003FD37D /* CJGMediaAssetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A01E28F959BA003FD37D /* CJGMediaAssetInfo.m */; };
 		52D6A0BD28F959BE003FD37D /* CJGAVVideoRTMPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A01F28F959BA003FD37D /* CJGAVVideoRTMPFrame.m */; };
-		52D6A0BE28F959BE003FD37D /* CJGAVH264EncodeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02028F959BA003FD37D /* CJGAVH264EncodeOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0BE28F959BE003FD37D /* CJGAVH264EncodeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02028F959BA003FD37D /* CJGAVH264EncodeOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0BF28F959BE003FD37D /* CJGAVLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A02128F959BA003FD37D /* CJGAVLog.m */; };
 		52D6A0C028F959BE003FD37D /* CJGAVMeidaTimelineSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A02228F959BA003FD37D /* CJGAVMeidaTimelineSlice.m */; };
-		52D6A0C128F959BE003FD37D /* CJGAVClipperOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02328F959BA003FD37D /* CJGAVClipperOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0C228F959BE003FD37D /* CJGAVAACEncodeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02428F959BA003FD37D /* CJGAVAACEncodeOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0C328F959BE003FD37D /* CJGAVAudioInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02528F959BB003FD37D /* CJGAVAudioInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0C428F959BE003FD37D /* CJGAVMediaTimelineSliceComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02628F959BB003FD37D /* CJGAVMediaTimelineSliceComposition.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0C528F959BE003FD37D /* CJGAVFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02728F959BB003FD37D /* CJGAVFileManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0C128F959BE003FD37D /* CJGAVClipperOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02328F959BA003FD37D /* CJGAVClipperOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0C228F959BE003FD37D /* CJGAVAACEncodeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02428F959BA003FD37D /* CJGAVAACEncodeOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0C328F959BE003FD37D /* CJGAVAudioInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02528F959BB003FD37D /* CJGAVAudioInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0C428F959BE003FD37D /* CJGAVMediaTimelineSliceComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02628F959BB003FD37D /* CJGAVMediaTimelineSliceComposition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0C528F959BE003FD37D /* CJGAVFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02728F959BB003FD37D /* CJGAVFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0C628F959BF003FD37D /* CJGAVAudioSplicerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A02828F959BB003FD37D /* CJGAVAudioSplicerOptions.m */; };
 		52D6A0C728F959BF003FD37D /* CJGAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A02928F959BB003FD37D /* CJGAVAssetExportSession.m */; };
-		52D6A0C828F959BF003FD37D /* CJGAVDeviceAthorizationSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02A28F959BB003FD37D /* CJGAVDeviceAthorizationSettings.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0C928F959BF003FD37D /* CJGAVAudioPitchEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02B28F959BB003FD37D /* CJGAVAudioPitchEngine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0C828F959BF003FD37D /* CJGAVDeviceAthorizationSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02A28F959BB003FD37D /* CJGAVDeviceAthorizationSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0C928F959BF003FD37D /* CJGAVAudioPitchEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02B28F959BB003FD37D /* CJGAVAudioPitchEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0CA28F959BF003FD37D /* CJGAVMediaAssetOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A02C28F959BB003FD37D /* CJGAVMediaAssetOptions.m */; };
-		52D6A0CB28F959BF003FD37D /* CJGAVComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02D28F959BB003FD37D /* CJGAVComponent.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0CC28F959BF003FD37D /* CJGAVSplicerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02E28F959BB003FD37D /* CJGAVSplicerOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0CB28F959BF003FD37D /* CJGAVComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02D28F959BB003FD37D /* CJGAVComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0CC28F959BF003FD37D /* CJGAVSplicerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A02E28F959BB003FD37D /* CJGAVSplicerOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0CD28F959BF003FD37D /* CJGAVVideoMixerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A02F28F959BB003FD37D /* CJGAVVideoMixerOptions.m */; };
-		52D6A0CE28F959BF003FD37D /* CJGAVPlayerInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03028F959BB003FD37D /* CJGAVPlayerInterface.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0CF28F959BF003FD37D /* CJGAVAssetExportSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03128F959BB003FD37D /* CJGAVAssetExportSession.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0D028F959BF003FD37D /* CJGAVAudioClipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03228F959BB003FD37D /* CJGAVAudioClipper.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0D128F959BF003FD37D /* CJGAVInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03328F959BB003FD37D /* CJGAVInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0CE28F959BF003FD37D /* CJGAVPlayerInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03028F959BB003FD37D /* CJGAVPlayerInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0CF28F959BF003FD37D /* CJGAVAssetExportSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03128F959BB003FD37D /* CJGAVAssetExportSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0D028F959BF003FD37D /* CJGAVAudioClipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03228F959BB003FD37D /* CJGAVAudioClipper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0D128F959BF003FD37D /* CJGAVInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03328F959BB003FD37D /* CJGAVInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0D228F959BF003FD37D /* CJGAVMixerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A03428F959BB003FD37D /* CJGAVMixerOptions.m */; };
-		52D6A0D328F959BF003FD37D /* CJGAVFirstAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03528F959BB003FD37D /* CJGAVFirstAudioRecorder.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0D428F959BF003FD37D /* CJGAVRecordCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03628F959BB003FD37D /* CJGAVRecordCoreBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0D528F959BF003FD37D /* CJGAVVideoImageExtractorOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03728F959BB003FD37D /* CJGAVVideoImageExtractorOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0D628F959BF003FD37D /* CJGAVAudioPitchFactoryInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03828F959BB003FD37D /* CJGAVAudioPitchFactoryInterface.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0D728F959BF003FD37D /* CJGAVAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03928F959BB003FD37D /* CJGAVAudioPlayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0D328F959BF003FD37D /* CJGAVFirstAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03528F959BB003FD37D /* CJGAVFirstAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0D428F959BF003FD37D /* CJGAVRecordCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03628F959BB003FD37D /* CJGAVRecordCoreBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0D528F959BF003FD37D /* CJGAVVideoImageExtractorOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03728F959BB003FD37D /* CJGAVVideoImageExtractorOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0D628F959BF003FD37D /* CJGAVAudioPitchFactoryInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03828F959BB003FD37D /* CJGAVAudioPitchFactoryInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0D728F959BF003FD37D /* CJGAVAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03928F959BB003FD37D /* CJGAVAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0D828F959BF003FD37D /* CJGMediaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03A28F959BB003FD37D /* CJGMediaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0D928F959BF003FD37D /* CJGAVSecondAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A03B28F959BB003FD37D /* CJGAVSecondAudioRecorder.m */; };
-		52D6A0DA28F959BF003FD37D /* CJGAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03C28F959BB003FD37D /* CJGAVPlayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0DA28F959BF003FD37D /* CJGAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03C28F959BB003FD37D /* CJGAVPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0DB28F959BF003FD37D /* CJGAVEncodeVideoSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A03D28F959BB003FD37D /* CJGAVEncodeVideoSetting.m */; };
 		52D6A0DC28F959BF003FD37D /* CJGAVVideoSplicer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A03E28F959BB003FD37D /* CJGAVVideoSplicer.m */; };
-		52D6A0DD28F959BF003FD37D /* CJGAVAudioClipperOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03F28F959BC003FD37D /* CJGAVAudioClipperOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0DD28F959BF003FD37D /* CJGAVAudioClipperOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A03F28F959BC003FD37D /* CJGAVAudioClipperOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0DE28F959BF003FD37D /* CJGAVH264VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A04028F959BC003FD37D /* CJGAVH264VideoEncoder.m */; };
 		52D6A0DF28F959BF003FD37D /* CJGAVTimeRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A04128F959BC003FD37D /* CJGAVTimeRange.m */; };
-		52D6A0E028F959BF003FD37D /* CJGAVDeviceSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04228F959BC003FD37D /* CJGAVDeviceSettings.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0E028F959BF003FD37D /* CJGAVDeviceSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04228F959BC003FD37D /* CJGAVDeviceSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0E128F959BF003FD37D /* CJGAVFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A04328F959BC003FD37D /* CJGAVFileManager.m */; };
 		52D6A0E228F959BF003FD37D /* CJGAVAudioRTMPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A04428F959BC003FD37D /* CJGAVAudioRTMPFrame.m */; };
-		52D6A0E328F959BF003FD37D /* CJGAVAudioRTMPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04528F959BC003FD37D /* CJGAVAudioRTMPFrame.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0E428F959BF003FD37D /* CJGAVVideoRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04628F959BC003FD37D /* CJGAVVideoRecorderOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0E328F959BF003FD37D /* CJGAVAudioRTMPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04528F959BC003FD37D /* CJGAVAudioRTMPFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0E428F959BF003FD37D /* CJGAVVideoRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04628F959BC003FD37D /* CJGAVVideoRecorderOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0E528F959BF003FD37D /* CJGAVVideoSplicerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A04728F959BC003FD37D /* CJGAVVideoSplicerOptions.m */; };
-		52D6A0E628F959BF003FD37D /* CJGMediaAssetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04828F959BC003FD37D /* CJGMediaAssetInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0E728F959BF003FD37D /* CJGAVLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04928F959BC003FD37D /* CJGAVLog.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0E828F959BF003FD37D /* CJGAVVideoSplicerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04A28F959BC003FD37D /* CJGAVVideoSplicerOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0E628F959BF003FD37D /* CJGMediaAssetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04828F959BC003FD37D /* CJGMediaAssetInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0E728F959BF003FD37D /* CJGAVLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04928F959BC003FD37D /* CJGAVLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0E828F959BF003FD37D /* CJGAVVideoSplicerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04A28F959BC003FD37D /* CJGAVVideoSplicerOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0E928F959BF003FD37D /* CJGAVComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A04B28F959BC003FD37D /* CJGAVComponent.m */; };
 		52D6A0EA28F959BF003FD37D /* CJGAVH246VideoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A04C28F959BC003FD37D /* CJGAVH246VideoDecoder.m */; };
-		52D6A0EB28F959BF003FD37D /* CJGAVRecordAudioCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04D28F959BC003FD37D /* CJGAVRecordAudioCoreBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0EC28F959BF003FD37D /* CJGAVMediaTimelineSliceOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04E28F959BC003FD37D /* CJGAVMediaTimelineSliceOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0EB28F959BF003FD37D /* CJGAVRecordAudioCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04D28F959BC003FD37D /* CJGAVRecordAudioCoreBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0EC28F959BF003FD37D /* CJGAVMediaTimelineSliceOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A04E28F959BC003FD37D /* CJGAVMediaTimelineSliceOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0ED28F959BF003FD37D /* CJGAVEncodeAudioSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A04F28F959BC003FD37D /* CJGAVEncodeAudioSetting.m */; };
-		52D6A0EE28F959BF003FD37D /* CJGAVAudioPitchEngineRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05028F959BC003FD37D /* CJGAVAudioPitchEngineRecorderOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0EE28F959BF003FD37D /* CJGAVAudioPitchEngineRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05028F959BC003FD37D /* CJGAVAudioPitchEngineRecorderOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0EF28F959BF003FD37D /* CJGAVFirstVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05128F959BC003FD37D /* CJGAVFirstVideoRecorder.m */; };
 		52D6A0F028F959BF003FD37D /* CJGAVVideoMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05228F959BC003FD37D /* CJGAVVideoMixer.m */; };
 		52D6A0F128F959BF003FD37D /* CJGAVH264EncodeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05328F959BC003FD37D /* CJGAVH264EncodeOptions.m */; };
@@ -117,42 +117,42 @@
 		52D6A0F328F959BF003FD37D /* CJGAVRecordAudioCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05528F959BC003FD37D /* CJGAVRecordAudioCoreBase.m */; };
 		52D6A0F428F959BF003FD37D /* CJGAVMediaTimelineSliceOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05628F959BC003FD37D /* CJGAVMediaTimelineSliceOptions.m */; };
 		52D6A0F528F959BF003FD37D /* CJGAVRecordVideoCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05728F959BC003FD37D /* CJGAVRecordVideoCoreBase.m */; };
-		52D6A0F628F959BF003FD37D /* CJGAVRecordVideoCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05828F959BC003FD37D /* CJGAVRecordVideoCoreBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0F628F959BF003FD37D /* CJGAVRecordVideoCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05828F959BC003FD37D /* CJGAVRecordVideoCoreBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0F728F959BF003FD37D /* CJGAVVideoImageExtractorOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05928F959BC003FD37D /* CJGAVVideoImageExtractorOptions.m */; };
-		52D6A0F828F959BF003FD37D /* CJGAVAudioSplicerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05A28F959BC003FD37D /* CJGAVAudioSplicerOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0F828F959BF003FD37D /* CJGAVAudioSplicerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05A28F959BC003FD37D /* CJGAVAudioSplicerOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0F928F959BF003FD37D /* CJGAVVideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05B28F959BD003FD37D /* CJGAVVideoInfo.m */; };
 		52D6A0FA28F959BF003FD37D /* CJGAVAudioMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05C28F959BD003FD37D /* CJGAVAudioMixer.m */; };
 		52D6A0FB28F959BF003FD37D /* CJGAVSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A05D28F959BD003FD37D /* CJGAVSettings.m */; };
-		52D6A0FC28F959BF003FD37D /* CJGAVVideoMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05E28F959BD003FD37D /* CJGAVVideoMixer.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0FD28F959BF003FD37D /* CJGAVTimeRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05F28F959BD003FD37D /* CJGAVTimeRange.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A0FE28F959BF003FD37D /* CJGAVAACAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06028F959BD003FD37D /* CJGAVAACAudioDecoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A0FC28F959BF003FD37D /* CJGAVVideoMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05E28F959BD003FD37D /* CJGAVVideoMixer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0FD28F959BF003FD37D /* CJGAVTimeRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A05F28F959BD003FD37D /* CJGAVTimeRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A0FE28F959BF003FD37D /* CJGAVAACAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06028F959BD003FD37D /* CJGAVAACAudioDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A0FF28F959BF003FD37D /* CJGAVVideoImageExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A06128F959BD003FD37D /* CJGAVVideoImageExtractor.m */; };
 		52D6A10028F959BF003FD37D /* CJGAVCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A06228F959BD003FD37D /* CJGAVCoreBase.m */; };
-		52D6A10128F959BF003FD37D /* CJGAVAudioRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06328F959BD003FD37D /* CJGAVAudioRecorderOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A10228F959BF003FD37D /* CJGAVVideoSplicer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06428F959BD003FD37D /* CJGAVVideoSplicer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A10128F959BF003FD37D /* CJGAVAudioRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06328F959BD003FD37D /* CJGAVAudioRecorderOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A10228F959BF003FD37D /* CJGAVVideoSplicer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06428F959BD003FD37D /* CJGAVVideoSplicer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A10328F959BF003FD37D /* CJGAVResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A06528F959BD003FD37D /* CJGAVResult.m */; };
 		52D6A10428F959BF003FD37D /* CJGAVAudioClipper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A06628F959BD003FD37D /* CJGAVAudioClipper.m */; };
 		52D6A10528F959BF003FD37D /* CJGAVAudioPitchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A06728F959BD003FD37D /* CJGAVAudioPitchEngine.m */; };
-		52D6A10628F959BF003FD37D /* CJGAVCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06828F959BD003FD37D /* CJGAVCoreBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A10728F959BF003FD37D /* CJGAVAudioMixerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06928F959BD003FD37D /* CJGAVAudioMixerOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A10828F959BF003FD37D /* CJGAVEncodeAudioSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06A28F959BD003FD37D /* CJGAVEncodeAudioSetting.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A10928F959BF003FD37D /* CJGAVVideoImageExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06B28F959BD003FD37D /* CJGAVVideoImageExtractor.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A10A28F959BF003FD37D /* CJGAVAACAudioEncoderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06C28F959BD003FD37D /* CJGAVAACAudioEncoderInterface.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A10628F959BF003FD37D /* CJGAVCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06828F959BD003FD37D /* CJGAVCoreBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A10728F959BF003FD37D /* CJGAVAudioMixerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06928F959BD003FD37D /* CJGAVAudioMixerOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A10828F959BF003FD37D /* CJGAVEncodeAudioSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06A28F959BD003FD37D /* CJGAVEncodeAudioSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A10928F959BF003FD37D /* CJGAVVideoImageExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06B28F959BD003FD37D /* CJGAVVideoImageExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A10A28F959BF003FD37D /* CJGAVAACAudioEncoderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A06C28F959BD003FD37D /* CJGAVAACAudioEncoderInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A10B28F959BF003FD37D /* CJGAVAudioPitchFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A06D28F959BD003FD37D /* CJGAVAudioPitchFactory.mm */; };
 		52D6A10C28F959BF003FD37D /* CJGAVPlayCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A06E28F959BD003FD37D /* CJGAVPlayCoreBase.m */; };
 		52D6A10D28F959BF003FD37D /* CJGAVRecorderOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A06F28F959BD003FD37D /* CJGAVRecorderOptions.m */; };
 		52D6A10E28F959BF003FD37D /* CJGAVAudioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07028F959BD003FD37D /* CJGAVAudioInfo.m */; };
 		52D6A10F28F959BF003FD37D /* CJGAVAudioRecorderOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07128F959BD003FD37D /* CJGAVAudioRecorderOptions.m */; };
-		52D6A11028F959BF003FD37D /* CJGAVRTMPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07228F959BD003FD37D /* CJGAVRTMPFrame.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A11028F959BF003FD37D /* CJGAVRTMPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07228F959BD003FD37D /* CJGAVRTMPFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A11128F959BF003FD37D /* CJGAVAACAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07328F959BD003FD37D /* CJGAVAACAudioDecoder.m */; };
 		52D6A11228F959BF003FD37D /* CJGAVMediaTimelineSliceComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07428F959BD003FD37D /* CJGAVMediaTimelineSliceComposition.m */; };
-		52D6A11328F959BF003FD37D /* CJGAVThreeAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07528F959BE003FD37D /* CJGAVThreeAudioRecorder.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A11428F959BF003FD37D /* CJGAVVideoClipperOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07628F959BE003FD37D /* CJGAVVideoClipperOptions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A11328F959BF003FD37D /* CJGAVThreeAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07528F959BE003FD37D /* CJGAVThreeAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A11428F959BF003FD37D /* CJGAVVideoClipperOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07628F959BE003FD37D /* CJGAVVideoClipperOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A11528F959BF003FD37D /* CJGAVVideoRecorderOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07728F959BE003FD37D /* CJGAVVideoRecorderOptions.m */; };
-		52D6A11628F959BF003FD37D /* CJGAVResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07828F959BE003FD37D /* CJGAVResult.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A11728F959BF003FD37D /* CJGAVVideoRTMPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07928F959BE003FD37D /* CJGAVVideoRTMPFrame.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A11828F959BF003FD37D /* CJGAVFirstVideoRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07A28F959BE003FD37D /* CJGAVFirstVideoRecorder.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A11928F959BF003FD37D /* CJGProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07B28F959BE003FD37D /* CJGProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A11628F959BF003FD37D /* CJGAVResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07828F959BE003FD37D /* CJGAVResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A11728F959BF003FD37D /* CJGAVVideoRTMPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07928F959BE003FD37D /* CJGAVVideoRTMPFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A11828F959BF003FD37D /* CJGAVFirstVideoRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07A28F959BE003FD37D /* CJGAVFirstVideoRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D6A11928F959BF003FD37D /* CJGProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A07B28F959BE003FD37D /* CJGProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D6A11A28F959BF003FD37D /* CJGAVAudioPitchEngineRecorderOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07C28F959BE003FD37D /* CJGAVAudioPitchEngineRecorderOptions.m */; };
 		52D6A11B28F959BF003FD37D /* MediaApple.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07E28F959BE003FD37D /* MediaApple.mm */; };
 		52D6A11C28F959BF003FD37D /* Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07F28F959BE003FD37D /* Mutex.cpp */; };
@@ -722,21 +722,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D6A0A228F959BE003FD37D /* CJGAVRecorderOptions.h in Headers */,
 				52D6A0D828F959BF003FD37D /* CJGMediaFramework.h in Headers */,
+				52D6A0A228F959BE003FD37D /* CJGAVRecorderOptions.h in Headers */,
 				52D6A0CC28F959BF003FD37D /* CJGAVSplicerOptions.h in Headers */,
 				52D6A0C128F959BE003FD37D /* CJGAVClipperOptions.h in Headers */,
 				52D6A10228F959BF003FD37D /* CJGAVVideoSplicer.h in Headers */,
 				52D6A11428F959BF003FD37D /* CJGAVVideoClipperOptions.h in Headers */,
 				52D6A11628F959BF003FD37D /* CJGAVResult.h in Headers */,
-				52D6A12828F959BF003FD37D /* AudioResample.h in Headers */,
 				52D6A08E28F959BE003FD37D /* CJGAVH264VideoEncoderInterface.h in Headers */,
 				52D6A0A928F959BE003FD37D /* CJGAVH264VideoEncoder.h in Headers */,
 				52D6A0CB28F959BF003FD37D /* CJGAVComponent.h in Headers */,
 				52D6A0B928F959BE003FD37D /* CJGAVRecordCoreBaseInterface.h in Headers */,
 				52D6A11028F959BF003FD37D /* CJGAVRTMPFrame.h in Headers */,
 				52D6A0A128F959BE003FD37D /* CJGAVMixerOptions.h in Headers */,
-				42A74C592A42475C1B0903BAF98E0BF8 /* CJGMediaFramework-umbrella.h in Headers */,
 				52D6A0EE28F959BF003FD37D /* CJGAVAudioPitchEngineRecorderOptions.h in Headers */,
 				52D6A0D028F959BF003FD37D /* CJGAVAudioClipper.h in Headers */,
 				52D6A0D428F959BF003FD37D /* CJGAVRecordCoreBase.h in Headers */,
@@ -751,10 +749,8 @@
 				52D6A0EC28F959BF003FD37D /* CJGAVMediaTimelineSliceOptions.h in Headers */,
 				52D6A0C928F959BF003FD37D /* CJGAVAudioPitchEngine.h in Headers */,
 				52D6A10828F959BF003FD37D /* CJGAVEncodeAudioSetting.h in Headers */,
-				52D6A12428F959BF003FD37D /* AudioPitch.h in Headers */,
 				52D6A10128F959BF003FD37D /* CJGAVAudioRecorderOptions.h in Headers */,
 				52D6A0BA28F959BE003FD37D /* CJGAVSecondAudioRecorder.h in Headers */,
-				52D6A12728F959BF003FD37D /* AudioConvert.h in Headers */,
 				52D6A0D128F959BF003FD37D /* CJGAVInfo.h in Headers */,
 				52D6A10728F959BF003FD37D /* CJGAVAudioMixerOptions.h in Headers */,
 				52D6A0D328F959BF003FD37D /* CJGAVFirstAudioRecorder.h in Headers */,
@@ -775,14 +771,12 @@
 				52D6A09C28F959BE003FD37D /* CJGAVH246VideoDecoder.h in Headers */,
 				52D6A0D728F959BF003FD37D /* CJGAVAudioPlayer.h in Headers */,
 				52D6A0AC28F959BE003FD37D /* CJGAVAudioMixer.h in Headers */,
-				52D6A12128F959BF003FD37D /* CJGAVComponent_Utils.h in Headers */,
 				52D6A0B228F959BE003FD37D /* CJGAVVideoMixerOptions.h in Headers */,
 				52D6A11728F959BF003FD37D /* CJGAVVideoRTMPFrame.h in Headers */,
 				52D6A0E628F959BF003FD37D /* CJGMediaAssetInfo.h in Headers */,
 				52D6A09428F959BE003FD37D /* CJGAVVideoClipper.h in Headers */,
 				52D6A0C428F959BE003FD37D /* CJGAVMediaTimelineSliceComposition.h in Headers */,
 				52D6A0EB28F959BF003FD37D /* CJGAVRecordAudioCoreBase.h in Headers */,
-				52D6A11E28F959BF003FD37D /* MediaApple.h in Headers */,
 				52D6A0F828F959BF003FD37D /* CJGAVAudioSplicerOptions.h in Headers */,
 				52D6A09F28F959BE003FD37D /* CJGAVPlayCoreBase.h in Headers */,
 				52D6A09528F959BE003FD37D /* CJGAVEncodeVideoSetting.h in Headers */,
@@ -796,15 +790,21 @@
 				52D6A11928F959BF003FD37D /* CJGProxy.h in Headers */,
 				52D6A0DA28F959BF003FD37D /* CJGAVPlayer.h in Headers */,
 				52D6A09128F959BE003FD37D /* CJGAVVideoInfo.h in Headers */,
-				52D6A12928F959BF003FD37D /* Mutex.h in Headers */,
 				52D6A0DD28F959BF003FD37D /* CJGAVAudioClipperOptions.h in Headers */,
 				52D6A0CF28F959BF003FD37D /* CJGAVAssetExportSession.h in Headers */,
 				52D6A0BE28F959BE003FD37D /* CJGAVH264EncodeOptions.h in Headers */,
 				52D6A0C828F959BF003FD37D /* CJGAVDeviceAthorizationSettings.h in Headers */,
-				52D6A12028F959BF003FD37D /* MediaStruct.h in Headers */,
 				52D6A09628F959BE003FD37D /* CJGAVMeidaTimelineSlice.h in Headers */,
-				52D6A12328F959BF003FD37D /* AudioStretch.h in Headers */,
 				52D6A0B828F959BE003FD37D /* CJGAVAudioPitchEngineRecorder.h in Headers */,
+				42A74C592A42475C1B0903BAF98E0BF8 /* CJGMediaFramework-umbrella.h in Headers */,
+				52D6A12928F959BF003FD37D /* Mutex.h in Headers */,
+				52D6A12828F959BF003FD37D /* AudioResample.h in Headers */,
+				52D6A12728F959BF003FD37D /* AudioConvert.h in Headers */,
+				52D6A12428F959BF003FD37D /* AudioPitch.h in Headers */,
+				52D6A12328F959BF003FD37D /* AudioStretch.h in Headers */,
+				52D6A12128F959BF003FD37D /* CJGAVComponent_Utils.h in Headers */,
+				52D6A11E28F959BF003FD37D /* MediaApple.h in Headers */,
+				52D6A12028F959BF003FD37D /* MediaStruct.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
