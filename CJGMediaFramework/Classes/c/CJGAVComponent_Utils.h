@@ -8,8 +8,8 @@
 #ifndef CJGAVComponent_UTILS_H_
 #define CJGAVComponent_UTILS_H_
 
-#include "vector"
-#include "string"
+#include <vector>
+#include <string>
 
 typedef unsigned long long int uint64_llu;
 

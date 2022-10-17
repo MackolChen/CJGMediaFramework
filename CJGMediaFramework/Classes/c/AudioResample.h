@@ -5,8 +5,8 @@
 #ifndef DROID_SDK_JNI_AUDIORESAMPLE_H
 #define DROID_SDK_JNI_AUDIORESAMPLE_H
 
-#include "vector"
-#include "memory"
+#include <vector>
+#include <memory>
 
 #include "AudioConvert.h"
 #include "MediaStruct.h"
