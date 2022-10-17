@@ -5,10 +5,9 @@
 #ifndef DROID_SDK_JNI_MEDIASTRUCT_H
 #define DROID_SDK_JNI_MEDIASTRUCT_H
 
-#include <cstdio>
-#include <cstdlib>
-#include <memory>
-
+#include "cstdio"
+#include "cstdlib"
+#include "memory"
 using namespace std;
 
 // 数据结构体

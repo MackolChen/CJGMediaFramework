@@ -5,7 +5,7 @@
 #ifndef DROID_SDK_JNI_MUTEX_H
 #define DROID_SDK_JNI_MUTEX_H
 
-#include <pthread.h>
+#include "pthread.h"
 
 namespace CJGAVComponent {
 #define synchronized(M)  for(Lock M##_lock = M; M##_lock; M##_lock.setUnlock())
