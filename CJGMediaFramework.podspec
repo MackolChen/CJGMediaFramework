@@ -18,4 +18,7 @@ Pod::Spec.new do |s|
   s.source_files          = 'CJGMediaFramework/Classes/**/*'
   s.requires_arc          = true
   s.libraries = 'c++'
+  s.xcconfig = {
+      'CLANG_CXX_LIBRARY' => 'libc++'
+      }
 end
