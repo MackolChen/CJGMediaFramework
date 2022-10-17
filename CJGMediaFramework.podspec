@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.source_files          = 'CJGMediaFramework/Classes/**/*'
   s.requires_arc          = true
-  s.libraries = 'c++.1'
+  s.libraries = 'c++'
 end
