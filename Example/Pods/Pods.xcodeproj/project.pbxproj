@@ -453,7 +453,22 @@
 		4A6DFAAA5DEF58280B94B5B62A40359F /* CJGMediaFramework */ = {
 			isa = PBXGroup;
 			children = (
-				52D6A07D28F959BE003FD37D /* c */,
+				52D6A07E28F959BE003FD37D /* MediaApple.mm */,
+				52D6A07F28F959BE003FD37D /* Mutex.cpp */,
+				52D6A08028F959BE003FD37D /* CJGAVComponent_Utils.cpp */,
+				52D6A08128F959BE003FD37D /* MediaApple.h */,
+				52D6A08228F959BE003FD37D /* MediaStruct.cpp */,
+				52D6A08328F959BE003FD37D /* MediaStruct.h */,
+				52D6A08428F959BE003FD37D /* CJGAVComponent_Utils.h */,
+				52D6A08528F959BE003FD37D /* AudioPitch.cpp */,
+				52D6A08628F959BE003FD37D /* AudioStretch.h */,
+				52D6A08728F959BE003FD37D /* AudioPitch.h */,
+				52D6A08828F959BE003FD37D /* AudioResample.cpp */,
+				52D6A08928F959BE003FD37D /* AudioConvert.cpp */,
+				52D6A08A28F959BE003FD37D /* AudioConvert.h */,
+				52D6A08B28F959BE003FD37D /* AudioResample.h */,
+				52D6A08C28F959BE003FD37D /* Mutex.h */,
+				52D6A08D28F959BE003FD37D /* AudioStretch.cpp */,
 				52D6A06028F959BD003FD37D /* CJGAVAACAudioDecoder.h */,
 				52D6A07328F959BD003FD37D /* CJGAVAACAudioDecoder.m */,
 				52D6A01928F959BA003FD37D /* CJGAVAACAudioEncoder.h */,
@@ -601,30 +616,6 @@
 			);
 			name = CJGMediaFramework;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		52D6A07D28F959BE003FD37D /* c */ = {
-			isa = PBXGroup;
-			children = (
-				52D6A07E28F959BE003FD37D /* MediaApple.mm */,
-				52D6A07F28F959BE003FD37D /* Mutex.cpp */,
-				52D6A08028F959BE003FD37D /* CJGAVComponent_Utils.cpp */,
-				52D6A08128F959BE003FD37D /* MediaApple.h */,
-				52D6A08228F959BE003FD37D /* MediaStruct.cpp */,
-				52D6A08328F959BE003FD37D /* MediaStruct.h */,
-				52D6A08428F959BE003FD37D /* CJGAVComponent_Utils.h */,
-				52D6A08528F959BE003FD37D /* AudioPitch.cpp */,
-				52D6A08628F959BE003FD37D /* AudioStretch.h */,
-				52D6A08728F959BE003FD37D /* AudioPitch.h */,
-				52D6A08828F959BE003FD37D /* AudioResample.cpp */,
-				52D6A08928F959BE003FD37D /* AudioConvert.cpp */,
-				52D6A08A28F959BE003FD37D /* AudioConvert.h */,
-				52D6A08B28F959BE003FD37D /* AudioResample.h */,
-				52D6A08C28F959BE003FD37D /* Mutex.h */,
-				52D6A08D28F959BE003FD37D /* AudioStretch.cpp */,
-			);
-			name = c;
-			path = CJGMediaFramework/Classes/c;
 			sourceTree = "<group>";
 		};
 		53998A177EEB5C9F75EC5857E5E38757 /* Products */ = {
