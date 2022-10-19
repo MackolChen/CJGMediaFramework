@@ -157,18 +157,18 @@
 		52D6A11B28F959BF003FD37D /* MediaApple.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07E28F959BE003FD37D /* MediaApple.mm */; };
 		52D6A11C28F959BF003FD37D /* Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A07F28F959BE003FD37D /* Mutex.cpp */; };
 		52D6A11D28F959BF003FD37D /* CJGAVComponent_Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A08028F959BE003FD37D /* CJGAVComponent_Utils.cpp */; };
-		52D6A11E28F959BF003FD37D /* MediaApple.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08128F959BE003FD37D /* MediaApple.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A11E28F959BF003FD37D /* MediaApple.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08128F959BE003FD37D /* MediaApple.h */; };
 		52D6A11F28F959BF003FD37D /* MediaStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A08228F959BE003FD37D /* MediaStruct.cpp */; };
-		52D6A12028F959BF003FD37D /* MediaStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08328F959BE003FD37D /* MediaStruct.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A12128F959BF003FD37D /* CJGAVComponent_Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08428F959BE003FD37D /* CJGAVComponent_Utils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A12028F959BF003FD37D /* MediaStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08328F959BE003FD37D /* MediaStruct.h */; };
+		52D6A12128F959BF003FD37D /* CJGAVComponent_Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08428F959BE003FD37D /* CJGAVComponent_Utils.h */; };
 		52D6A12228F959BF003FD37D /* AudioPitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A08528F959BE003FD37D /* AudioPitch.cpp */; };
-		52D6A12328F959BF003FD37D /* AudioStretch.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08628F959BE003FD37D /* AudioStretch.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A12428F959BF003FD37D /* AudioPitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08728F959BE003FD37D /* AudioPitch.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A12328F959BF003FD37D /* AudioStretch.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08628F959BE003FD37D /* AudioStretch.h */; };
+		52D6A12428F959BF003FD37D /* AudioPitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08728F959BE003FD37D /* AudioPitch.h */; };
 		52D6A12528F959BF003FD37D /* AudioResample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A08828F959BE003FD37D /* AudioResample.cpp */; };
 		52D6A12628F959BF003FD37D /* AudioConvert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A08928F959BE003FD37D /* AudioConvert.cpp */; };
-		52D6A12728F959BF003FD37D /* AudioConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08A28F959BE003FD37D /* AudioConvert.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A12828F959BF003FD37D /* AudioResample.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08B28F959BE003FD37D /* AudioResample.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		52D6A12928F959BF003FD37D /* Mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08C28F959BE003FD37D /* Mutex.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52D6A12728F959BF003FD37D /* AudioConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08A28F959BE003FD37D /* AudioConvert.h */; };
+		52D6A12828F959BF003FD37D /* AudioResample.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08B28F959BE003FD37D /* AudioResample.h */; };
+		52D6A12928F959BF003FD37D /* Mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A08C28F959BE003FD37D /* Mutex.h */; };
 		52D6A12A28F959BF003FD37D /* AudioStretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A08D28F959BE003FD37D /* AudioStretch.cpp */; };
 		58FFEC87C052CF0C35179E4D8F55EB29 /* Pods-CJGMediaFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0560DA90A2FEA07020AD6331E35F20C3 /* Pods-CJGMediaFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62E682AF6800F4F477FC048A2BA1CD62 /* CJGMediaFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6347FD8D58BDCA81ADB5B851930D66 /* CJGMediaFramework-dummy.m */; };
@@ -791,11 +791,11 @@
 				52D6A12928F959BF003FD37D /* Mutex.h in Headers */,
 				52D6A12828F959BF003FD37D /* AudioResample.h in Headers */,
 				52D6A12728F959BF003FD37D /* AudioConvert.h in Headers */,
-				52D6A12428F959BF003FD37D /* AudioPitch.h in Headers */,
 				52D6A12328F959BF003FD37D /* AudioStretch.h in Headers */,
 				52D6A12128F959BF003FD37D /* CJGAVComponent_Utils.h in Headers */,
 				52D6A11E28F959BF003FD37D /* MediaApple.h in Headers */,
 				52D6A12028F959BF003FD37D /* MediaStruct.h in Headers */,
+				52D6A12428F959BF003FD37D /* AudioPitch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
