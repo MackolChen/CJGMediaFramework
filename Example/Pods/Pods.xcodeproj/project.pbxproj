@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3D93058726E7AAF6F850F52281D03827 /* Pods-CJGMediaFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6DE7969A9F254AACCC4455A5D134CF /* Pods-CJGMediaFramework_Example-dummy.m */; };
 		40174E38BA6191576173D61ECEAC5EB3 /* Pods-CJGMediaFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C78299AEAB8BE6D35D93292DD276AE /* Pods-CJGMediaFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42A74C592A42475C1B0903BAF98E0BF8 /* CJGMediaFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB186AA2E14FAFBC65ACACA8F82FB95 /* CJGMediaFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47436D51B942C79828919248FF6D2291 /* Pods-CJGMediaFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21551B554BA024A354FB6206AF88173 /* Pods-CJGMediaFramework_Tests-dummy.m */; };
 		525D11F028FD2628006B4482 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 525D11EC28FD2518006B4482 /* libc++.tbd */; };
 		52995A872900F2BE00F8EF32 /* CJGMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52995A862900F2BE00F8EF32 /* CJGMediaFramework.framework */; platformFilter = ios; };
@@ -245,7 +244,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42A74C592A42475C1B0903BAF98E0BF8 /* CJGMediaFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
