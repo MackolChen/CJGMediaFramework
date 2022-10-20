@@ -1,0 +1,6 @@
+framework module CJGMediaFramework {
+  umbrella header "CJGMediaFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
