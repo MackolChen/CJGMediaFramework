@@ -1,0 +1,269 @@
+//
+//  CJGAVAudioOptions.m
+//  CJGAVComponent
+//
+//  Created by Jinguo Chen on 2022/7/14.
+//  Copyright © 2019 ChenJinguo. All rights reserved.
+//
+
+#import "CJGAVMediaAssetOptions.h"
+
+@implementation CJGAVMediaAssetOptions
+
+#pragma mark - init
+
++ (instancetype)defaultOptions{
+    return [super defaultOptions];
+}
+
+/**
+ 初始化媒体信息
+ 
+ @param mediaPath 媒体资源地址
+ @return 媒体信息
+ */
+- (instancetype)initWithMediaPath:(NSString *)mediaPath;
+{
+    if (self = [super init]) {
+        self.mediaPath = mediaPath;
+    }
+    return self;
+}
+/**
+ 初始化媒体信息
+ 
+ @param mediaURL 媒体资源地址
+ @return 媒体信息媒体
+ */
+- (instancetype)initWithMediaURL:(NSURL *)mediaURL;
+{
+    if (self = [super init]) {
+        self.mediaURL = mediaURL;
+    }
+    return self;
+}
+
+/**
+ 初始化媒体信息
+ 
+ @param mediaAsset 媒体资源素材
+ @return 媒体信息
+ */
+- (instancetype)initWithMediaAsset:(AVURLAsset *)mediaAsset;
+{
+    if (self = [super init]) {
+        self.mediaAsset = mediaAsset;
+    }
+    return self;
+}
+
+
+/**
+ 设置默认参数配置(可以重置父类的默认参数，不设置的话，父类的默认参数会无效)
+ */
+- (void)setConfig;
+{
+    [super setConfig];
+    
+    _enableCreateFilePath = NO;
+    _audioVolume = 1.0;
+    _atNodeTime = kCMTimeZero;
+    _enableVideoSound = YES;
+}
+
+#pragma mark -- setter getter
+
+- (void)setMediaPath:(NSString *)mediaPath{
+    if(_mediaPath == mediaPath) return;
+    _mediaPath = mediaPath;
+    self.mediaURL = [self retrieveURL:mediaPath];
+}
+
+/**
+ 设置媒体url地址
+ 
+ @param mediaURL url地址
+ */
+- (void)setMediaURL:(NSURL *)mediaURL{
+    if(_mediaURL == mediaURL) return;
+    _mediaURL = mediaURL;
+    self.mediaAsset = [AVURLAsset URLAssetWithURL:_mediaURL options:nil];
+}
+
+
+/**
+ 设置媒体素材
+ 
+ @param mediaAsset 媒体素材
+ */
+- (void)setMediaAsset:(AVURLAsset *)mediaAsset{
+    if(_mediaAsset == mediaAsset) return;
+    _mediaAsset = mediaAsset;
+    
+    if (mediaAsset) {
+        //获取媒体资源开始、结束、持续时间等时间数据
+        _mediaTimeRange = [CJGAVTimeRange timeRangeWithStartTime:kCMTimeZero endTime:_mediaAsset.duration];
+        _atTimeRange = _mediaTimeRange;
+    }
+    
+    NSArray *audioTracks = [_mediaAsset tracksWithMediaType:AVMediaTypeAudio];
+    if (audioTracks.count > 0) {
+        
+        self.audioTrack = audioTracks.firstObject;
+    }else{
+        
+        CJGLWarn(@"This mediaAsset has no audio tracks，Please check if the meidaURL is correct");
+    }
+    
+    if (_meidaType == CJGAVMediaTypeVideo) {
+        
+        NSArray *videoTracks = [_mediaAsset tracksWithMediaType:AVMediaTypeVideo];
+        if (videoTracks.count > 0) {
+            
+            self.videoTrack = videoTracks.firstObject;
+        }else{
+            
+            CJGLWarn(@"This mediaAsset has no video tracks，Please check if the meidaURL is correct");
+        }
+    }
+}
+
+/**
+ 设置音效播放区间
+ 
+ @param atTimeRange 音效播放区间
+ */
+//- (void)setAtTimeRange:(CJGAVTimeRange *)atTimeRange;
+//{
+//    if(_atTimeRange == atTimeRange) return;
+//    _atTimeRange = atTimeRange;
+//
+//    //判断设置的持续时间是否大于素材本身的持续时间
+//    if (CMTIME_COMPARE_INLINE(_atTimeRange.duration, >, _mediaTimeRange.duration)) {
+//        CJGLWarn(@"_atTimeRange.duration > _mediaTimeRange.duration : %f > %f",_atTimeRange.durationSeconds,_mediaTimeRange.durationSeconds);
+//
+//        _atTimeRange.duration = _mediaTimeRange.duration;
+//    }
+//
+//    //判断开始时间是否大于结束时间
+//    if (CMTIME_COMPARE_INLINE(_atTimeRange.start, >, _atTimeRange.end)) {
+//        CJGLWarn(@"_atTimeRange.start > _atTimeRange.end : %f > %f",_atTimeRange.startSeconds,_atTimeRange.endSeconds);
+//
+//        CMTime start = _atTimeRange.start;
+//        CMTime end = _atTimeRange.end;
+//        _atTimeRange.start = end;
+//        _atTimeRange.end = start;
+//        _atTimeRange.duration = CMTimeSubtract(_atTimeRange.end, _atTimeRange.start);
+//    }
+//
+//    //判断开始时间是否大于素材本身的持续时间
+//    if (CMTIME_COMPARE_INLINE(_atTimeRange.start, >, _mediaTimeRange.end)) {
+//            CJGLWarn(@"_atTimeRange.start > _mediaTimeRange.end : %f > %f",_atTimeRange.startSeconds,_mediaTimeRange.endSeconds);
+//
+//            _atTimeRange.start = _mediaTimeRange.duration;
+//            _atTimeRange.duration = _mediaTimeRange.start;
+//    }
+//}
+
+- (CJGAVTimeRange *)atTimeRange{
+    if(_atTimeRange){
+        
+        //判断设置的持续时间是否大于素材本身的持续时间
+        if (CMTIME_COMPARE_INLINE(_atTimeRange.duration, >, _mediaTimeRange.duration)) {
+            CJGLWarn(@"_atTimeRange.duration > _mediaTimeRange.duration : %f > %f",_atTimeRange.durationSeconds,_mediaTimeRange.durationSeconds);
+            
+            _atTimeRange.duration = _mediaTimeRange.duration;
+        }
+        
+        //判断开始时间是否大于结束时间
+        if (CMTIME_COMPARE_INLINE(_atTimeRange.start, >, _atTimeRange.end)) {
+            CJGLWarn(@"_atTimeRange.start > _atTimeRange.end : %f > %f",_atTimeRange.startSeconds,_atTimeRange.endSeconds);
+            
+            CMTime start = _atTimeRange.start;
+            CMTime end = _atTimeRange.end;
+            _atTimeRange.start = end;
+            _atTimeRange.end = start;
+            _atTimeRange.duration = CMTimeSubtract(_atTimeRange.end, _atTimeRange.start);
+        }
+        
+        //判断开始时间是否大于素材本身的持续时间
+        if (CMTIME_COMPARE_INLINE(_atTimeRange.start, >, _mediaTimeRange.end)) {
+            CJGLWarn(@"_atTimeRange.start > _mediaTimeRange.end : %f > %f",_atTimeRange.startSeconds,_mediaTimeRange.endSeconds);
+            
+            _atTimeRange.start = _mediaTimeRange.duration;
+            _atTimeRange.duration = _mediaTimeRange.start;
+        }
+    }
+    return _atTimeRange;
+}
+
+- (CMTime)atNodeTime{
+    
+    if (CMTIME_IS_VALID(_atNodeTime) && CMTIME_COMPARE_INLINE(_atNodeTime, >, kCMTimeZero)) {
+        
+        //开始合成时间节点时间与该音频持续时间的和
+        CMTime atNodeDuration = CMTimeAdd(_atNodeTime, _atTimeRange.duration);
+        //判断是否大于主音轨的持续时间
+        if (CMTIME_COMPARE_INLINE(atNodeDuration, >=, _atTimeRange.duration)) {
+            atNodeDuration = kCMTimeZero;
+            _atNodeTime = atNodeDuration;
+        }
+    }else{
+        
+        _atNodeTime = kCMTimeZero;
+    }
+    return _atNodeTime;
+}
+
+- (NSTimeInterval)mediaDuration{
+    if (!_mediaDuration) {
+        
+        _mediaDuration = CMTimeGetSeconds(self.mediaAsset.duration);
+    }
+    return _mediaDuration;
+}
+
+/**
+ 音量设置
+ 
+ @param audioVolume 音量调节值
+ */
+- (void)setAudioVolume:(CGFloat)audioVolume;
+{
+    _audioVolume = audioVolume > 1.0 ? 1.0 : (audioVolume < 0.0 ? 0.0 : audioVolume);
+}
+
+
+#pragma mark -- private methods
+/**
+ 检索url是网络、本地哪一种
+ 
+ @param url urlStr
+ @return 返回相应的url
+ */
+- (NSURL *)retrieveURL:(NSString *)url{
+    
+    NSURL *videoUrl;
+    if ([url containsString:@"http"] || [url containsString:@"https"]) {//网络url
+        videoUrl = [self translateIllegalCharacterWtihUrlStr:url];
+        //videoUrl = [NSURL URLWithString:url];
+    }else {//本地url
+        
+        videoUrl = [NSURL fileURLWithPath:url];
+    }
+    return videoUrl;
+}
+
+//如果链接中存在中文或某些特殊字符，需要通过以下代码转译
+- (NSURL *)translateIllegalCharacterWtihUrlStr:(NSString *)yourUrl{
+    
+    yourUrl = [yourUrl stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    //NSString *encodedString = [yourUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString *encodedString = [yourUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    
+    return [NSURL URLWithString:encodedString];
+}
+
+
+
+@end

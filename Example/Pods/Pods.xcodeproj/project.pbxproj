@@ -3,15 +3,172 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3D93058726E7AAF6F850F52281D03827 /* Pods-CJGMediaFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6DE7969A9F254AACCC4455A5D134CF /* Pods-CJGMediaFramework_Example-dummy.m */; };
 		40174E38BA6191576173D61ECEAC5EB3 /* Pods-CJGMediaFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C78299AEAB8BE6D35D93292DD276AE /* Pods-CJGMediaFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47436D51B942C79828919248FF6D2291 /* Pods-CJGMediaFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21551B554BA024A354FB6206AF88173 /* Pods-CJGMediaFramework_Tests-dummy.m */; };
+		5216F43A29065AA500868414 /* CJGAVAudioMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F39D29065A9F00868414 /* CJGAVAudioMixer.m */; };
+		5216F43B29065AA500868414 /* CJGAVComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F39E29065A9F00868414 /* CJGAVComponent.m */; };
+		5216F43C29065AA500868414 /* CJGAVAudioRTMPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F39F29065A9F00868414 /* CJGAVAudioRTMPFrame.m */; };
+		5216F43D29065AA500868414 /* CJGAVSplicerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3A029065A9F00868414 /* CJGAVSplicerOptions.m */; };
+		5216F43E29065AA500868414 /* CJGAVThreeAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3A129065A9F00868414 /* CJGAVThreeAudioRecorder.h */; };
+		5216F43F29065AA500868414 /* CJGAVAudioMixerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3A229065A9F00868414 /* CJGAVAudioMixerOptions.h */; };
+		5216F44029065AA500868414 /* CJGAVFirstVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3A329065A9F00868414 /* CJGAVFirstVideoRecorder.m */; };
+		5216F44129065AA500868414 /* MediaStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3A429065A9F00868414 /* MediaStruct.h */; };
+		5216F44229065AA500868414 /* CJGAVAACAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3A529065A9F00868414 /* CJGAVAACAudioEncoder.m */; };
+		5216F44329065AA500868414 /* CJGAVAudioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3A629065AA000868414 /* CJGAVAudioInfo.m */; };
+		5216F44429065AA500868414 /* CJGAVVideoSplicerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3A729065AA000868414 /* CJGAVVideoSplicerOptions.m */; };
+		5216F44529065AA500868414 /* CJGAVVideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3A829065AA000868414 /* CJGAVVideoInfo.m */; };
+		5216F44629065AA500868414 /* CJGAVRecordCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3A929065AA000868414 /* CJGAVRecordCoreBase.h */; };
+		5216F44729065AA500868414 /* AudioStretch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3AA29065AA000868414 /* AudioStretch.h */; };
+		5216F44829065AA500868414 /* CJGAVRecordAudioCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3AB29065AA000868414 /* CJGAVRecordAudioCoreBase.h */; };
+		5216F44929065AA500868414 /* CJGAVSplicerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3AC29065AA000868414 /* CJGAVSplicerOptions.h */; };
+		5216F44A29065AA500868414 /* CJGAVRecordAudioCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3AD29065AA000868414 /* CJGAVRecordAudioCoreBase.m */; };
+		5216F44B29065AA500868414 /* CJGAVMediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3AE29065AA000868414 /* CJGAVMediaInfo.h */; };
+		5216F44C29065AA500868414 /* Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3AF29065AA000868414 /* Mutex.cpp */; };
+		5216F44D29065AA500868414 /* CJGAVMediaAssetOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3B029065AA000868414 /* CJGAVMediaAssetOptions.m */; };
+		5216F44E29065AA500868414 /* CJGProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3B129065AA000868414 /* CJGProxy.h */; };
+		5216F44F29065AA500868414 /* AudioStretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3B229065AA000868414 /* AudioStretch.cpp */; };
+		5216F45029065AA500868414 /* CJGAVRTMPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3B329065AA000868414 /* CJGAVRTMPFrame.m */; };
+		5216F45129065AA500868414 /* CJGAVSingleAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3B429065AA000868414 /* CJGAVSingleAudioPlayer.h */; };
+		5216F45229065AA500868414 /* CJGAVVideoSplicer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3B529065AA000868414 /* CJGAVVideoSplicer.m */; };
+		5216F45329065AA500868414 /* CJGAVSecondAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3B629065AA000868414 /* CJGAVSecondAudioRecorder.h */; };
+		5216F45429065AA500868414 /* CJGAVVideoClipperOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3B729065AA000868414 /* CJGAVVideoClipperOptions.m */; };
+		5216F45529065AA500868414 /* CJGAVMediaTimelineSliceComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3B829065AA000868414 /* CJGAVMediaTimelineSliceComposition.h */; };
+		5216F45629065AA500868414 /* CJGAVSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3B929065AA000868414 /* CJGAVSettings.h */; };
+		5216F45729065AA500868414 /* CJGAVAACEncodeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3BA29065AA000868414 /* CJGAVAACEncodeOptions.m */; };
+		5216F45829065AA500868414 /* CJGAVMediaSampleBufferAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3BB29065AA000868414 /* CJGAVMediaSampleBufferAssistant.m */; };
+		5216F45929065AA500868414 /* CJGAVVideoMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3BC29065AA000868414 /* CJGAVVideoMixer.h */; };
+		5216F45A29065AA500868414 /* CJGAVMediaTimelineSliceOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3BD29065AA000868414 /* CJGAVMediaTimelineSliceOptions.h */; };
+		5216F45B29065AA500868414 /* CJGAVAudioClipperOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3BE29065AA000868414 /* CJGAVAudioClipperOptions.h */; };
+		5216F45C29065AA500868414 /* CJGAVVideoClipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3BF29065AA100868414 /* CJGAVVideoClipper.h */; };
+		5216F45D29065AA500868414 /* CJGAVAudioRecorderOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3C029065AA100868414 /* CJGAVAudioRecorderOptions.m */; };
+		5216F45E29065AA500868414 /* CJGAVAudioInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3C129065AA100868414 /* CJGAVAudioInfo.h */; };
+		5216F45F29065AA500868414 /* CJGAVAudioRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3C229065AA100868414 /* CJGAVAudioRecorderOptions.h */; };
+		5216F46029065AA500868414 /* CJGAVAACAudioEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3C329065AA100868414 /* CJGAVAACAudioEncoder.h */; };
+		5216F46129065AA500868414 /* CJGAVVideoRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3C429065AA100868414 /* CJGAVVideoRecorderOptions.h */; };
+		5216F46229065AA500868414 /* CJGAVMediaTimelineSliceOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3C529065AA100868414 /* CJGAVMediaTimelineSliceOptions.m */; };
+		5216F46329065AA500868414 /* CJGAVH246VideoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3C629065AA100868414 /* CJGAVH246VideoDecoder.m */; };
+		5216F46429065AA500868414 /* CJGAVAACAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3C729065AA100868414 /* CJGAVAACAudioDecoder.h */; };
+		5216F46529065AA500868414 /* AudioConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3C829065AA100868414 /* AudioConvert.h */; };
+		5216F46629065AA500868414 /* CJGAVAudioRTMPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3C929065AA100868414 /* CJGAVAudioRTMPFrame.h */; };
+		5216F46729065AA500868414 /* MediaApple.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3CA29065AA100868414 /* MediaApple.h */; };
+		5216F46829065AA500868414 /* CJGAVSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3CB29065AA100868414 /* CJGAVSettings.m */; };
+		5216F46929065AA500868414 /* CJGAVResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3CC29065AA100868414 /* CJGAVResult.h */; };
+		5216F46A29065AA500868414 /* CJGAVFirstVideoRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3CD29065AA100868414 /* CJGAVFirstVideoRecorder.h */; };
+		5216F46B29065AA500868414 /* CJGAVOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3CE29065AA100868414 /* CJGAVOptions.m */; };
+		5216F46C29065AA500868414 /* CJGAVAssetExportSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3CF29065AA100868414 /* CJGAVAssetExportSession.h */; };
+		5216F46D29065AA500868414 /* CJGAVComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3D029065AA100868414 /* CJGAVComponent.h */; };
+		5216F46E29065AA500868414 /* CJGAVRecordVideoCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3D129065AA100868414 /* CJGAVRecordVideoCoreBase.h */; };
+		5216F46F29065AA500868414 /* CJGAVEncodeVideoSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3D229065AA100868414 /* CJGAVEncodeVideoSetting.h */; };
+		5216F47029065AA500868414 /* CJGAVVideoImageExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3D329065AA100868414 /* CJGAVVideoImageExtractor.m */; };
+		5216F47129065AA500868414 /* CJGAVPlayCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3D429065AA100868414 /* CJGAVPlayCoreBase.h */; };
+		5216F47229065AA500868414 /* CJGAVSecondAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3D529065AA100868414 /* CJGAVSecondAudioRecorder.m */; };
+		5216F47329065AA500868414 /* CJGAVH264VideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3D629065AA100868414 /* CJGAVH264VideoEncoder.h */; };
+		5216F47429065AA500868414 /* CJGAVH264VideoEncoderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3D729065AA100868414 /* CJGAVH264VideoEncoderInterface.h */; };
+		5216F47529065AA500868414 /* CJGAVRecorderOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3D829065AA200868414 /* CJGAVRecorderOptions.m */; };
+		5216F47629065AA500868414 /* CJGAVVideoImageExtractorOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3D929065AA200868414 /* CJGAVVideoImageExtractorOptions.m */; };
+		5216F47729065AA500868414 /* CJGAVInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3DA29065AA200868414 /* CJGAVInfo.m */; };
+		5216F47829065AA500868414 /* CJGAVPlayerInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3DB29065AA200868414 /* CJGAVPlayerInterface.h */; };
+		5216F47929065AA500868414 /* CJGAVRecordCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3DC29065AA200868414 /* CJGAVRecordCoreBase.m */; };
+		5216F47A29065AA500868414 /* MediaApple.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3DD29065AA200868414 /* MediaApple.mm */; };
+		5216F47B29065AA500868414 /* CJGAVAudioClipper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3DE29065AA200868414 /* CJGAVAudioClipper.m */; };
+		5216F47C29065AA500868414 /* CJGAVAudioPitchFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3DF29065AA200868414 /* CJGAVAudioPitchFactory.h */; };
+		5216F47D29065AA500868414 /* AudioPitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3E029065AA200868414 /* AudioPitch.h */; };
+		5216F47E29065AA500868414 /* CJGAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3E129065AA200868414 /* CJGAVPlayer.h */; };
+		5216F47F29065AA500868414 /* CJGAVAACAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3E229065AA200868414 /* CJGAVAACAudioDecoder.m */; };
+		5216F48029065AA500868414 /* CJGAVVideoRecorderOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3E329065AA200868414 /* CJGAVVideoRecorderOptions.m */; };
+		5216F48129065AA500868414 /* CJGAVTimeRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3E429065AA200868414 /* CJGAVTimeRange.m */; };
+		5216F48229065AA500868414 /* CJGAVDeviceSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3E529065AA200868414 /* CJGAVDeviceSettings.m */; };
+		5216F48329065AA500868414 /* Mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3E629065AA200868414 /* Mutex.h */; };
+		5216F48429065AA500868414 /* CJGMediaAssetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3E729065AA200868414 /* CJGMediaAssetInfo.h */; };
+		5216F48529065AA500868414 /* CJGAVDeviceSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3E829065AA200868414 /* CJGAVDeviceSettings.h */; };
+		5216F48629065AA500868414 /* CJGAVMeidaTimelineSlice.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3E929065AA200868414 /* CJGAVMeidaTimelineSlice.h */; };
+		5216F48729065AA500868414 /* CJGAVAudioPitchEngineRecorderOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3EA29065AA200868414 /* CJGAVAudioPitchEngineRecorderOptions.m */; };
+		5216F48829065AA500868414 /* CJGAVVideoImageExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3EB29065AA200868414 /* CJGAVVideoImageExtractor.h */; };
+		5216F48929065AA500868414 /* CJGAVH264VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3EC29065AA200868414 /* CJGAVH264VideoEncoder.m */; };
+		5216F48A29065AA500868414 /* CJGAVClipperOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3ED29065AA200868414 /* CJGAVClipperOptions.h */; };
+		5216F48B29065AA500868414 /* CJGAVDeviceAthorizationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3EE29065AA200868414 /* CJGAVDeviceAthorizationSettings.m */; };
+		5216F48C29065AA500868414 /* CJGAVLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3EF29065AA200868414 /* CJGAVLog.m */; };
+		5216F48D29065AA500868414 /* CJGAVPlayCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3F029065AA200868414 /* CJGAVPlayCoreBase.m */; };
+		5216F48E29065AA500868414 /* CJGAVRTMPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3F129065AA200868414 /* CJGAVRTMPFrame.h */; };
+		5216F48F29065AA500868414 /* CJGAVAudioPitchEngineRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3F229065AA200868414 /* CJGAVAudioPitchEngineRecorder.h */; };
+		5216F49029065AA500868414 /* CJGAVLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3F329065AA200868414 /* CJGAVLog.h */; };
+		5216F49129065AA500868414 /* CJGAVAudioPitchEngineRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3F429065AA300868414 /* CJGAVAudioPitchEngineRecorder.m */; };
+		5216F49229065AA500868414 /* CJGAVAudioMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3F529065AA300868414 /* CJGAVAudioMixer.h */; };
+		5216F49329065AA500868414 /* AudioResample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3F629065AA300868414 /* AudioResample.cpp */; };
+		5216F49429065AA500868414 /* CJGAVThreeAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3F729065AA300868414 /* CJGAVThreeAudioRecorder.m */; };
+		5216F49529065AA500868414 /* CJGAVAudioClipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3F829065AA300868414 /* CJGAVAudioClipper.h */; };
+		5216F49629065AA500868414 /* CJGAVVideoSplicer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3F929065AA300868414 /* CJGAVVideoSplicer.h */; };
+		5216F49729065AA500868414 /* CJGAVVideoSplicerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3FA29065AA300868414 /* CJGAVVideoSplicerOptions.h */; };
+		5216F49829065AA500868414 /* CJGAVOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3FB29065AA300868414 /* CJGAVOptions.h */; };
+		5216F49929065AA500868414 /* CJGAVVideoMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F3FC29065AA300868414 /* CJGAVVideoMixer.m */; };
+		5216F49A29065AA500868414 /* CJGAVMixerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3FD29065AA300868414 /* CJGAVMixerOptions.h */; };
+		5216F49B29065AA500868414 /* AudioResample.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3FE29065AA300868414 /* AudioResample.h */; };
+		5216F49C29065AA500868414 /* CJGAVH246VideoDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F3FF29065AA300868414 /* CJGAVH246VideoDecoder.h */; };
+		5216F49D29065AA500868414 /* CJGAVResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40029065AA300868414 /* CJGAVResult.m */; };
+		5216F49E29065AA500868414 /* CJGAVVideoClipperOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F40129065AA300868414 /* CJGAVVideoClipperOptions.h */; };
+		5216F49F29065AA500868414 /* CJGAVVideoImageExtractorOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F40229065AA300868414 /* CJGAVVideoImageExtractorOptions.h */; };
+		5216F4A029065AA500868414 /* CJGAVVideoMixerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F40329065AA300868414 /* CJGAVVideoMixerOptions.h */; };
+		5216F4A129065AA500868414 /* CJGMediaAssetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40429065AA300868414 /* CJGMediaAssetInfo.m */; };
+		5216F4A229065AA500868414 /* MediaStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40529065AA300868414 /* MediaStruct.cpp */; };
+		5216F4A329065AA500868414 /* CJGAVAudioSplicerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40629065AA300868414 /* CJGAVAudioSplicerOptions.m */; };
+		5216F4A429065AA500868414 /* CJGAVVideoInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F40729065AA300868414 /* CJGAVVideoInfo.h */; };
+		5216F4A529065AA500868414 /* CJGAVEncodeVideoSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40829065AA300868414 /* CJGAVEncodeVideoSetting.m */; };
+		5216F4A629065AA500868414 /* CJGAVCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40929065AA300868414 /* CJGAVCoreBase.m */; };
+		5216F4A729065AA500868414 /* CJGAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40A29065AA300868414 /* CJGAVAudioPlayer.m */; };
+		5216F4A829065AA500868414 /* CJGAVRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F40B29065AA300868414 /* CJGAVRecorderOptions.h */; };
+		5216F4A929065AA500868414 /* CJGAVComponent_Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40C29065AA300868414 /* CJGAVComponent_Utils.cpp */; };
+		5216F4AA29065AA500868414 /* CJGAVMediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40D29065AA300868414 /* CJGAVMediaInfo.m */; };
+		5216F4AB29065AA500868414 /* AudioPitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40E29065AA300868414 /* AudioPitch.cpp */; };
+		5216F4AC29065AA500868414 /* AudioConvert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5216F40F29065AA300868414 /* AudioConvert.cpp */; };
+		5216F4AD29065AA500868414 /* CJGAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F41029065AA400868414 /* CJGAVAssetExportSession.m */; };
+		5216F4AE29065AA500868414 /* CJGAVEncodeAudioSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F41129065AA400868414 /* CJGAVEncodeAudioSetting.m */; };
+		5216F4AF29065AA500868414 /* CJGAVAudioPitchEngineInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F41229065AA400868414 /* CJGAVAudioPitchEngineInterface.h */; };
+		5216F4B029065AA500868414 /* CJGMediaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F41329065AA400868414 /* CJGMediaFramework.h */; };
+		5216F4B129065AA500868414 /* CJGAVCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F41429065AA400868414 /* CJGAVCoreBase.h */; };
+		5216F4B229065AA500868414 /* CJGAVMediaSampleBufferAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F41529065AA400868414 /* CJGAVMediaSampleBufferAssistant.h */; };
+		5216F4B329065AA500868414 /* CJGAVInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F41629065AA400868414 /* CJGAVInfo.h */; };
+		5216F4B429065AA500868414 /* CJGAVFirstAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F41729065AA400868414 /* CJGAVFirstAudioRecorder.m */; };
+		5216F4B529065AA500868414 /* CJGAVVideoRTMPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F41829065AA400868414 /* CJGAVVideoRTMPFrame.m */; };
+		5216F4B629065AA500868414 /* CJGAVAACAudioEncoderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F41929065AA400868414 /* CJGAVAACAudioEncoderInterface.h */; };
+		5216F4B729065AA500868414 /* CJGAVFirstAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F41A29065AA400868414 /* CJGAVFirstAudioRecorder.h */; };
+		5216F4B829065AA500868414 /* CJGAVH264EncodeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F41B29065AA400868414 /* CJGAVH264EncodeOptions.m */; };
+		5216F4B929065AA500868414 /* CJGAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F41C29065AA400868414 /* CJGAVPlayer.m */; };
+		5216F4BA29065AA600868414 /* CJGAVEncodeAudioSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F41D29065AA400868414 /* CJGAVEncodeAudioSetting.h */; };
+		5216F4BB29065AA600868414 /* CJGAVClipperOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F41E29065AA400868414 /* CJGAVClipperOptions.m */; };
+		5216F4BC29065AA600868414 /* CJGAVSingleAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F41F29065AA400868414 /* CJGAVSingleAudioPlayer.m */; };
+		5216F4BD29065AA600868414 /* CJGAVAudioMixerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F42029065AA400868414 /* CJGAVAudioMixerOptions.m */; };
+		5216F4BE29065AA600868414 /* CJGProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F42129065AA400868414 /* CJGProxy.m */; };
+		5216F4BF29065AA600868414 /* CJGAVAudioClipperOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F42229065AA400868414 /* CJGAVAudioClipperOptions.m */; };
+		5216F4C029065AA600868414 /* CJGAVAudioPitchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F42329065AA400868414 /* CJGAVAudioPitchEngine.m */; };
+		5216F4C129065AA600868414 /* CJGAVAudioSplicerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F42429065AA400868414 /* CJGAVAudioSplicerOptions.h */; };
+		5216F4C229065AA600868414 /* CJGAVTimeRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F42529065AA400868414 /* CJGAVTimeRange.h */; };
+		5216F4C329065AA600868414 /* CJGAVVideoMixerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F42629065AA400868414 /* CJGAVVideoMixerOptions.m */; };
+		5216F4C429065AA600868414 /* CJGAVVideoRTMPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F42729065AA400868414 /* CJGAVVideoRTMPFrame.h */; };
+		5216F4C529065AA600868414 /* CJGAVDeviceAthorizationSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F42829065AA400868414 /* CJGAVDeviceAthorizationSettings.h */; };
+		5216F4C629065AA600868414 /* CJGAVAudioPitchEngineRecorderOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F42929065AA400868414 /* CJGAVAudioPitchEngineRecorderOptions.h */; };
+		5216F4C729065AA600868414 /* CJGAVVideoClipper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F42A29065AA500868414 /* CJGAVVideoClipper.m */; };
+		5216F4C829065AA600868414 /* CJGAVFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F42B29065AA500868414 /* CJGAVFileManager.m */; };
+		5216F4C929065AA600868414 /* CJGAVAudioPitchFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5216F42C29065AA500868414 /* CJGAVAudioPitchFactory.mm */; };
+		5216F4CA29065AA600868414 /* CJGAVAACEncodeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F42D29065AA500868414 /* CJGAVAACEncodeOptions.h */; };
+		5216F4CB29065AA600868414 /* CJGAVAudioPitchEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F42E29065AA500868414 /* CJGAVAudioPitchEngine.h */; };
+		5216F4CC29065AA600868414 /* CJGAVRecordCoreBaseInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F42F29065AA500868414 /* CJGAVRecordCoreBaseInterface.h */; };
+		5216F4CD29065AA600868414 /* CJGAVH264EncodeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F43029065AA500868414 /* CJGAVH264EncodeOptions.h */; };
+		5216F4CE29065AA600868414 /* CJGAVMediaTimelineSliceComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F43129065AA500868414 /* CJGAVMediaTimelineSliceComposition.m */; };
+		5216F4CF29065AA600868414 /* CJGAVAudioPitchFactoryInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F43229065AA500868414 /* CJGAVAudioPitchFactoryInterface.h */; };
+		5216F4D029065AA600868414 /* CJGAVRecordVideoCoreBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F43329065AA500868414 /* CJGAVRecordVideoCoreBase.m */; };
+		5216F4D129065AA600868414 /* CJGAVMediaAssetOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F43429065AA500868414 /* CJGAVMediaAssetOptions.h */; };
+		5216F4D229065AA600868414 /* CJGAVMeidaTimelineSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F43529065AA500868414 /* CJGAVMeidaTimelineSlice.m */; };
+		5216F4D329065AA600868414 /* CJGAVFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F43629065AA500868414 /* CJGAVFileManager.h */; };
+		5216F4D429065AA600868414 /* CJGAVComponent_Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F43729065AA500868414 /* CJGAVComponent_Utils.h */; };
+		5216F4D529065AA600868414 /* CJGAVMixerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216F43829065AA500868414 /* CJGAVMixerOptions.m */; };
+		5216F4D629065AA600868414 /* CJGAVAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216F43929065AA500868414 /* CJGAVAudioPlayer.h */; };
+		52273D5C29028D3400A179C0 /* CJGMediaFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB186AA2E14FAFBC65ACACA8F82FB95 /* CJGMediaFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		525D11F028FD2628006B4482 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 525D11EC28FD2518006B4482 /* libc++.tbd */; };
-		52995A872900F2BE00F8EF32 /* CJGMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52995A862900F2BE00F8EF32 /* CJGMediaFramework.framework */; platformFilter = ios; };
 		58FFEC87C052CF0C35179E4D8F55EB29 /* Pods-CJGMediaFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0560DA90A2FEA07020AD6331E35F20C3 /* Pods-CJGMediaFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62E682AF6800F4F477FC048A2BA1CD62 /* CJGMediaFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6347FD8D58BDCA81ADB5B851930D66 /* CJGMediaFramework-dummy.m */; };
 /* End PBXBuildFile section */
@@ -51,9 +208,164 @@
 		4BE460F205DFC67CDF3752593FA0E7FE /* Pods-CJGMediaFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGMediaFramework_Tests-Info.plist"; sourceTree = "<group>"; };
 		4D6DE7969A9F254AACCC4455A5D134CF /* Pods-CJGMediaFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJGMediaFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		4D734DCCFA7C6F08FD2ADAB4830585EC /* CJGMediaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJGMediaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5216F39D29065A9F00868414 /* CJGAVAudioMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioMixer.m; path = CJGMediaFramework/Classes/CJGAVAudioMixer.m; sourceTree = "<group>"; };
+		5216F39E29065A9F00868414 /* CJGAVComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVComponent.m; path = CJGMediaFramework/Classes/CJGAVComponent.m; sourceTree = "<group>"; };
+		5216F39F29065A9F00868414 /* CJGAVAudioRTMPFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioRTMPFrame.m; path = CJGMediaFramework/Classes/CJGAVAudioRTMPFrame.m; sourceTree = "<group>"; };
+		5216F3A029065A9F00868414 /* CJGAVSplicerOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVSplicerOptions.m; path = CJGMediaFramework/Classes/CJGAVSplicerOptions.m; sourceTree = "<group>"; };
+		5216F3A129065A9F00868414 /* CJGAVThreeAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVThreeAudioRecorder.h; path = CJGMediaFramework/Classes/CJGAVThreeAudioRecorder.h; sourceTree = "<group>"; };
+		5216F3A229065A9F00868414 /* CJGAVAudioMixerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioMixerOptions.h; path = CJGMediaFramework/Classes/CJGAVAudioMixerOptions.h; sourceTree = "<group>"; };
+		5216F3A329065A9F00868414 /* CJGAVFirstVideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVFirstVideoRecorder.m; path = CJGMediaFramework/Classes/CJGAVFirstVideoRecorder.m; sourceTree = "<group>"; };
+		5216F3A429065A9F00868414 /* MediaStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaStruct.h; path = CJGMediaFramework/Classes/MediaStruct.h; sourceTree = "<group>"; };
+		5216F3A529065A9F00868414 /* CJGAVAACAudioEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAACAudioEncoder.m; path = CJGMediaFramework/Classes/CJGAVAACAudioEncoder.m; sourceTree = "<group>"; };
+		5216F3A629065AA000868414 /* CJGAVAudioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioInfo.m; path = CJGMediaFramework/Classes/CJGAVAudioInfo.m; sourceTree = "<group>"; };
+		5216F3A729065AA000868414 /* CJGAVVideoSplicerOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoSplicerOptions.m; path = CJGMediaFramework/Classes/CJGAVVideoSplicerOptions.m; sourceTree = "<group>"; };
+		5216F3A829065AA000868414 /* CJGAVVideoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoInfo.m; path = CJGMediaFramework/Classes/CJGAVVideoInfo.m; sourceTree = "<group>"; };
+		5216F3A929065AA000868414 /* CJGAVRecordCoreBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVRecordCoreBase.h; path = CJGMediaFramework/Classes/CJGAVRecordCoreBase.h; sourceTree = "<group>"; };
+		5216F3AA29065AA000868414 /* AudioStretch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioStretch.h; path = CJGMediaFramework/Classes/AudioStretch.h; sourceTree = "<group>"; };
+		5216F3AB29065AA000868414 /* CJGAVRecordAudioCoreBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVRecordAudioCoreBase.h; path = CJGMediaFramework/Classes/CJGAVRecordAudioCoreBase.h; sourceTree = "<group>"; };
+		5216F3AC29065AA000868414 /* CJGAVSplicerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVSplicerOptions.h; path = CJGMediaFramework/Classes/CJGAVSplicerOptions.h; sourceTree = "<group>"; };
+		5216F3AD29065AA000868414 /* CJGAVRecordAudioCoreBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVRecordAudioCoreBase.m; path = CJGMediaFramework/Classes/CJGAVRecordAudioCoreBase.m; sourceTree = "<group>"; };
+		5216F3AE29065AA000868414 /* CJGAVMediaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVMediaInfo.h; path = CJGMediaFramework/Classes/CJGAVMediaInfo.h; sourceTree = "<group>"; };
+		5216F3AF29065AA000868414 /* Mutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mutex.cpp; path = CJGMediaFramework/Classes/Mutex.cpp; sourceTree = "<group>"; };
+		5216F3B029065AA000868414 /* CJGAVMediaAssetOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVMediaAssetOptions.m; path = CJGMediaFramework/Classes/CJGAVMediaAssetOptions.m; sourceTree = "<group>"; };
+		5216F3B129065AA000868414 /* CJGProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGProxy.h; path = CJGMediaFramework/Classes/CJGProxy.h; sourceTree = "<group>"; };
+		5216F3B229065AA000868414 /* AudioStretch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AudioStretch.cpp; path = CJGMediaFramework/Classes/AudioStretch.cpp; sourceTree = "<group>"; };
+		5216F3B329065AA000868414 /* CJGAVRTMPFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVRTMPFrame.m; path = CJGMediaFramework/Classes/CJGAVRTMPFrame.m; sourceTree = "<group>"; };
+		5216F3B429065AA000868414 /* CJGAVSingleAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVSingleAudioPlayer.h; path = CJGMediaFramework/Classes/CJGAVSingleAudioPlayer.h; sourceTree = "<group>"; };
+		5216F3B529065AA000868414 /* CJGAVVideoSplicer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoSplicer.m; path = CJGMediaFramework/Classes/CJGAVVideoSplicer.m; sourceTree = "<group>"; };
+		5216F3B629065AA000868414 /* CJGAVSecondAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVSecondAudioRecorder.h; path = CJGMediaFramework/Classes/CJGAVSecondAudioRecorder.h; sourceTree = "<group>"; };
+		5216F3B729065AA000868414 /* CJGAVVideoClipperOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoClipperOptions.m; path = CJGMediaFramework/Classes/CJGAVVideoClipperOptions.m; sourceTree = "<group>"; };
+		5216F3B829065AA000868414 /* CJGAVMediaTimelineSliceComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVMediaTimelineSliceComposition.h; path = CJGMediaFramework/Classes/CJGAVMediaTimelineSliceComposition.h; sourceTree = "<group>"; };
+		5216F3B929065AA000868414 /* CJGAVSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVSettings.h; path = CJGMediaFramework/Classes/CJGAVSettings.h; sourceTree = "<group>"; };
+		5216F3BA29065AA000868414 /* CJGAVAACEncodeOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAACEncodeOptions.m; path = CJGMediaFramework/Classes/CJGAVAACEncodeOptions.m; sourceTree = "<group>"; };
+		5216F3BB29065AA000868414 /* CJGAVMediaSampleBufferAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVMediaSampleBufferAssistant.m; path = CJGMediaFramework/Classes/CJGAVMediaSampleBufferAssistant.m; sourceTree = "<group>"; };
+		5216F3BC29065AA000868414 /* CJGAVVideoMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoMixer.h; path = CJGMediaFramework/Classes/CJGAVVideoMixer.h; sourceTree = "<group>"; };
+		5216F3BD29065AA000868414 /* CJGAVMediaTimelineSliceOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVMediaTimelineSliceOptions.h; path = CJGMediaFramework/Classes/CJGAVMediaTimelineSliceOptions.h; sourceTree = "<group>"; };
+		5216F3BE29065AA000868414 /* CJGAVAudioClipperOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioClipperOptions.h; path = CJGMediaFramework/Classes/CJGAVAudioClipperOptions.h; sourceTree = "<group>"; };
+		5216F3BF29065AA100868414 /* CJGAVVideoClipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoClipper.h; path = CJGMediaFramework/Classes/CJGAVVideoClipper.h; sourceTree = "<group>"; };
+		5216F3C029065AA100868414 /* CJGAVAudioRecorderOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioRecorderOptions.m; path = CJGMediaFramework/Classes/CJGAVAudioRecorderOptions.m; sourceTree = "<group>"; };
+		5216F3C129065AA100868414 /* CJGAVAudioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioInfo.h; path = CJGMediaFramework/Classes/CJGAVAudioInfo.h; sourceTree = "<group>"; };
+		5216F3C229065AA100868414 /* CJGAVAudioRecorderOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioRecorderOptions.h; path = CJGMediaFramework/Classes/CJGAVAudioRecorderOptions.h; sourceTree = "<group>"; };
+		5216F3C329065AA100868414 /* CJGAVAACAudioEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAACAudioEncoder.h; path = CJGMediaFramework/Classes/CJGAVAACAudioEncoder.h; sourceTree = "<group>"; };
+		5216F3C429065AA100868414 /* CJGAVVideoRecorderOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoRecorderOptions.h; path = CJGMediaFramework/Classes/CJGAVVideoRecorderOptions.h; sourceTree = "<group>"; };
+		5216F3C529065AA100868414 /* CJGAVMediaTimelineSliceOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVMediaTimelineSliceOptions.m; path = CJGMediaFramework/Classes/CJGAVMediaTimelineSliceOptions.m; sourceTree = "<group>"; };
+		5216F3C629065AA100868414 /* CJGAVH246VideoDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVH246VideoDecoder.m; path = CJGMediaFramework/Classes/CJGAVH246VideoDecoder.m; sourceTree = "<group>"; };
+		5216F3C729065AA100868414 /* CJGAVAACAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAACAudioDecoder.h; path = CJGMediaFramework/Classes/CJGAVAACAudioDecoder.h; sourceTree = "<group>"; };
+		5216F3C829065AA100868414 /* AudioConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioConvert.h; path = CJGMediaFramework/Classes/AudioConvert.h; sourceTree = "<group>"; };
+		5216F3C929065AA100868414 /* CJGAVAudioRTMPFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioRTMPFrame.h; path = CJGMediaFramework/Classes/CJGAVAudioRTMPFrame.h; sourceTree = "<group>"; };
+		5216F3CA29065AA100868414 /* MediaApple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaApple.h; path = CJGMediaFramework/Classes/MediaApple.h; sourceTree = "<group>"; };
+		5216F3CB29065AA100868414 /* CJGAVSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVSettings.m; path = CJGMediaFramework/Classes/CJGAVSettings.m; sourceTree = "<group>"; };
+		5216F3CC29065AA100868414 /* CJGAVResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVResult.h; path = CJGMediaFramework/Classes/CJGAVResult.h; sourceTree = "<group>"; };
+		5216F3CD29065AA100868414 /* CJGAVFirstVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVFirstVideoRecorder.h; path = CJGMediaFramework/Classes/CJGAVFirstVideoRecorder.h; sourceTree = "<group>"; };
+		5216F3CE29065AA100868414 /* CJGAVOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVOptions.m; path = CJGMediaFramework/Classes/CJGAVOptions.m; sourceTree = "<group>"; };
+		5216F3CF29065AA100868414 /* CJGAVAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAssetExportSession.h; path = CJGMediaFramework/Classes/CJGAVAssetExportSession.h; sourceTree = "<group>"; };
+		5216F3D029065AA100868414 /* CJGAVComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVComponent.h; path = CJGMediaFramework/Classes/CJGAVComponent.h; sourceTree = "<group>"; };
+		5216F3D129065AA100868414 /* CJGAVRecordVideoCoreBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVRecordVideoCoreBase.h; path = CJGMediaFramework/Classes/CJGAVRecordVideoCoreBase.h; sourceTree = "<group>"; };
+		5216F3D229065AA100868414 /* CJGAVEncodeVideoSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVEncodeVideoSetting.h; path = CJGMediaFramework/Classes/CJGAVEncodeVideoSetting.h; sourceTree = "<group>"; };
+		5216F3D329065AA100868414 /* CJGAVVideoImageExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoImageExtractor.m; path = CJGMediaFramework/Classes/CJGAVVideoImageExtractor.m; sourceTree = "<group>"; };
+		5216F3D429065AA100868414 /* CJGAVPlayCoreBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVPlayCoreBase.h; path = CJGMediaFramework/Classes/CJGAVPlayCoreBase.h; sourceTree = "<group>"; };
+		5216F3D529065AA100868414 /* CJGAVSecondAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVSecondAudioRecorder.m; path = CJGMediaFramework/Classes/CJGAVSecondAudioRecorder.m; sourceTree = "<group>"; };
+		5216F3D629065AA100868414 /* CJGAVH264VideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVH264VideoEncoder.h; path = CJGMediaFramework/Classes/CJGAVH264VideoEncoder.h; sourceTree = "<group>"; };
+		5216F3D729065AA100868414 /* CJGAVH264VideoEncoderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVH264VideoEncoderInterface.h; path = CJGMediaFramework/Classes/CJGAVH264VideoEncoderInterface.h; sourceTree = "<group>"; };
+		5216F3D829065AA200868414 /* CJGAVRecorderOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVRecorderOptions.m; path = CJGMediaFramework/Classes/CJGAVRecorderOptions.m; sourceTree = "<group>"; };
+		5216F3D929065AA200868414 /* CJGAVVideoImageExtractorOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoImageExtractorOptions.m; path = CJGMediaFramework/Classes/CJGAVVideoImageExtractorOptions.m; sourceTree = "<group>"; };
+		5216F3DA29065AA200868414 /* CJGAVInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVInfo.m; path = CJGMediaFramework/Classes/CJGAVInfo.m; sourceTree = "<group>"; };
+		5216F3DB29065AA200868414 /* CJGAVPlayerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVPlayerInterface.h; path = CJGMediaFramework/Classes/CJGAVPlayerInterface.h; sourceTree = "<group>"; };
+		5216F3DC29065AA200868414 /* CJGAVRecordCoreBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVRecordCoreBase.m; path = CJGMediaFramework/Classes/CJGAVRecordCoreBase.m; sourceTree = "<group>"; };
+		5216F3DD29065AA200868414 /* MediaApple.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MediaApple.mm; path = CJGMediaFramework/Classes/MediaApple.mm; sourceTree = "<group>"; };
+		5216F3DE29065AA200868414 /* CJGAVAudioClipper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioClipper.m; path = CJGMediaFramework/Classes/CJGAVAudioClipper.m; sourceTree = "<group>"; };
+		5216F3DF29065AA200868414 /* CJGAVAudioPitchFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioPitchFactory.h; path = CJGMediaFramework/Classes/CJGAVAudioPitchFactory.h; sourceTree = "<group>"; };
+		5216F3E029065AA200868414 /* AudioPitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPitch.h; path = CJGMediaFramework/Classes/AudioPitch.h; sourceTree = "<group>"; };
+		5216F3E129065AA200868414 /* CJGAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVPlayer.h; path = CJGMediaFramework/Classes/CJGAVPlayer.h; sourceTree = "<group>"; };
+		5216F3E229065AA200868414 /* CJGAVAACAudioDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAACAudioDecoder.m; path = CJGMediaFramework/Classes/CJGAVAACAudioDecoder.m; sourceTree = "<group>"; };
+		5216F3E329065AA200868414 /* CJGAVVideoRecorderOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoRecorderOptions.m; path = CJGMediaFramework/Classes/CJGAVVideoRecorderOptions.m; sourceTree = "<group>"; };
+		5216F3E429065AA200868414 /* CJGAVTimeRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVTimeRange.m; path = CJGMediaFramework/Classes/CJGAVTimeRange.m; sourceTree = "<group>"; };
+		5216F3E529065AA200868414 /* CJGAVDeviceSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVDeviceSettings.m; path = CJGMediaFramework/Classes/CJGAVDeviceSettings.m; sourceTree = "<group>"; };
+		5216F3E629065AA200868414 /* Mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mutex.h; path = CJGMediaFramework/Classes/Mutex.h; sourceTree = "<group>"; };
+		5216F3E729065AA200868414 /* CJGMediaAssetInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGMediaAssetInfo.h; path = CJGMediaFramework/Classes/CJGMediaAssetInfo.h; sourceTree = "<group>"; };
+		5216F3E829065AA200868414 /* CJGAVDeviceSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVDeviceSettings.h; path = CJGMediaFramework/Classes/CJGAVDeviceSettings.h; sourceTree = "<group>"; };
+		5216F3E929065AA200868414 /* CJGAVMeidaTimelineSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVMeidaTimelineSlice.h; path = CJGMediaFramework/Classes/CJGAVMeidaTimelineSlice.h; sourceTree = "<group>"; };
+		5216F3EA29065AA200868414 /* CJGAVAudioPitchEngineRecorderOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioPitchEngineRecorderOptions.m; path = CJGMediaFramework/Classes/CJGAVAudioPitchEngineRecorderOptions.m; sourceTree = "<group>"; };
+		5216F3EB29065AA200868414 /* CJGAVVideoImageExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoImageExtractor.h; path = CJGMediaFramework/Classes/CJGAVVideoImageExtractor.h; sourceTree = "<group>"; };
+		5216F3EC29065AA200868414 /* CJGAVH264VideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVH264VideoEncoder.m; path = CJGMediaFramework/Classes/CJGAVH264VideoEncoder.m; sourceTree = "<group>"; };
+		5216F3ED29065AA200868414 /* CJGAVClipperOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVClipperOptions.h; path = CJGMediaFramework/Classes/CJGAVClipperOptions.h; sourceTree = "<group>"; };
+		5216F3EE29065AA200868414 /* CJGAVDeviceAthorizationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVDeviceAthorizationSettings.m; path = CJGMediaFramework/Classes/CJGAVDeviceAthorizationSettings.m; sourceTree = "<group>"; };
+		5216F3EF29065AA200868414 /* CJGAVLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVLog.m; path = CJGMediaFramework/Classes/CJGAVLog.m; sourceTree = "<group>"; };
+		5216F3F029065AA200868414 /* CJGAVPlayCoreBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVPlayCoreBase.m; path = CJGMediaFramework/Classes/CJGAVPlayCoreBase.m; sourceTree = "<group>"; };
+		5216F3F129065AA200868414 /* CJGAVRTMPFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVRTMPFrame.h; path = CJGMediaFramework/Classes/CJGAVRTMPFrame.h; sourceTree = "<group>"; };
+		5216F3F229065AA200868414 /* CJGAVAudioPitchEngineRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioPitchEngineRecorder.h; path = CJGMediaFramework/Classes/CJGAVAudioPitchEngineRecorder.h; sourceTree = "<group>"; };
+		5216F3F329065AA200868414 /* CJGAVLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVLog.h; path = CJGMediaFramework/Classes/CJGAVLog.h; sourceTree = "<group>"; };
+		5216F3F429065AA300868414 /* CJGAVAudioPitchEngineRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioPitchEngineRecorder.m; path = CJGMediaFramework/Classes/CJGAVAudioPitchEngineRecorder.m; sourceTree = "<group>"; };
+		5216F3F529065AA300868414 /* CJGAVAudioMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioMixer.h; path = CJGMediaFramework/Classes/CJGAVAudioMixer.h; sourceTree = "<group>"; };
+		5216F3F629065AA300868414 /* AudioResample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AudioResample.cpp; path = CJGMediaFramework/Classes/AudioResample.cpp; sourceTree = "<group>"; };
+		5216F3F729065AA300868414 /* CJGAVThreeAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVThreeAudioRecorder.m; path = CJGMediaFramework/Classes/CJGAVThreeAudioRecorder.m; sourceTree = "<group>"; };
+		5216F3F829065AA300868414 /* CJGAVAudioClipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioClipper.h; path = CJGMediaFramework/Classes/CJGAVAudioClipper.h; sourceTree = "<group>"; };
+		5216F3F929065AA300868414 /* CJGAVVideoSplicer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoSplicer.h; path = CJGMediaFramework/Classes/CJGAVVideoSplicer.h; sourceTree = "<group>"; };
+		5216F3FA29065AA300868414 /* CJGAVVideoSplicerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoSplicerOptions.h; path = CJGMediaFramework/Classes/CJGAVVideoSplicerOptions.h; sourceTree = "<group>"; };
+		5216F3FB29065AA300868414 /* CJGAVOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVOptions.h; path = CJGMediaFramework/Classes/CJGAVOptions.h; sourceTree = "<group>"; };
+		5216F3FC29065AA300868414 /* CJGAVVideoMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoMixer.m; path = CJGMediaFramework/Classes/CJGAVVideoMixer.m; sourceTree = "<group>"; };
+		5216F3FD29065AA300868414 /* CJGAVMixerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVMixerOptions.h; path = CJGMediaFramework/Classes/CJGAVMixerOptions.h; sourceTree = "<group>"; };
+		5216F3FE29065AA300868414 /* AudioResample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioResample.h; path = CJGMediaFramework/Classes/AudioResample.h; sourceTree = "<group>"; };
+		5216F3FF29065AA300868414 /* CJGAVH246VideoDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVH246VideoDecoder.h; path = CJGMediaFramework/Classes/CJGAVH246VideoDecoder.h; sourceTree = "<group>"; };
+		5216F40029065AA300868414 /* CJGAVResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVResult.m; path = CJGMediaFramework/Classes/CJGAVResult.m; sourceTree = "<group>"; };
+		5216F40129065AA300868414 /* CJGAVVideoClipperOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoClipperOptions.h; path = CJGMediaFramework/Classes/CJGAVVideoClipperOptions.h; sourceTree = "<group>"; };
+		5216F40229065AA300868414 /* CJGAVVideoImageExtractorOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoImageExtractorOptions.h; path = CJGMediaFramework/Classes/CJGAVVideoImageExtractorOptions.h; sourceTree = "<group>"; };
+		5216F40329065AA300868414 /* CJGAVVideoMixerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoMixerOptions.h; path = CJGMediaFramework/Classes/CJGAVVideoMixerOptions.h; sourceTree = "<group>"; };
+		5216F40429065AA300868414 /* CJGMediaAssetInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGMediaAssetInfo.m; path = CJGMediaFramework/Classes/CJGMediaAssetInfo.m; sourceTree = "<group>"; };
+		5216F40529065AA300868414 /* MediaStruct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MediaStruct.cpp; path = CJGMediaFramework/Classes/MediaStruct.cpp; sourceTree = "<group>"; };
+		5216F40629065AA300868414 /* CJGAVAudioSplicerOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioSplicerOptions.m; path = CJGMediaFramework/Classes/CJGAVAudioSplicerOptions.m; sourceTree = "<group>"; };
+		5216F40729065AA300868414 /* CJGAVVideoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoInfo.h; path = CJGMediaFramework/Classes/CJGAVVideoInfo.h; sourceTree = "<group>"; };
+		5216F40829065AA300868414 /* CJGAVEncodeVideoSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVEncodeVideoSetting.m; path = CJGMediaFramework/Classes/CJGAVEncodeVideoSetting.m; sourceTree = "<group>"; };
+		5216F40929065AA300868414 /* CJGAVCoreBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVCoreBase.m; path = CJGMediaFramework/Classes/CJGAVCoreBase.m; sourceTree = "<group>"; };
+		5216F40A29065AA300868414 /* CJGAVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioPlayer.m; path = CJGMediaFramework/Classes/CJGAVAudioPlayer.m; sourceTree = "<group>"; };
+		5216F40B29065AA300868414 /* CJGAVRecorderOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVRecorderOptions.h; path = CJGMediaFramework/Classes/CJGAVRecorderOptions.h; sourceTree = "<group>"; };
+		5216F40C29065AA300868414 /* CJGAVComponent_Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CJGAVComponent_Utils.cpp; path = CJGMediaFramework/Classes/CJGAVComponent_Utils.cpp; sourceTree = "<group>"; };
+		5216F40D29065AA300868414 /* CJGAVMediaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVMediaInfo.m; path = CJGMediaFramework/Classes/CJGAVMediaInfo.m; sourceTree = "<group>"; };
+		5216F40E29065AA300868414 /* AudioPitch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AudioPitch.cpp; path = CJGMediaFramework/Classes/AudioPitch.cpp; sourceTree = "<group>"; };
+		5216F40F29065AA300868414 /* AudioConvert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AudioConvert.cpp; path = CJGMediaFramework/Classes/AudioConvert.cpp; sourceTree = "<group>"; };
+		5216F41029065AA400868414 /* CJGAVAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAssetExportSession.m; path = CJGMediaFramework/Classes/CJGAVAssetExportSession.m; sourceTree = "<group>"; };
+		5216F41129065AA400868414 /* CJGAVEncodeAudioSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVEncodeAudioSetting.m; path = CJGMediaFramework/Classes/CJGAVEncodeAudioSetting.m; sourceTree = "<group>"; };
+		5216F41229065AA400868414 /* CJGAVAudioPitchEngineInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioPitchEngineInterface.h; path = CJGMediaFramework/Classes/CJGAVAudioPitchEngineInterface.h; sourceTree = "<group>"; };
+		5216F41329065AA400868414 /* CJGMediaFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGMediaFramework.h; path = CJGMediaFramework/Classes/CJGMediaFramework.h; sourceTree = "<group>"; };
+		5216F41429065AA400868414 /* CJGAVCoreBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVCoreBase.h; path = CJGMediaFramework/Classes/CJGAVCoreBase.h; sourceTree = "<group>"; };
+		5216F41529065AA400868414 /* CJGAVMediaSampleBufferAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVMediaSampleBufferAssistant.h; path = CJGMediaFramework/Classes/CJGAVMediaSampleBufferAssistant.h; sourceTree = "<group>"; };
+		5216F41629065AA400868414 /* CJGAVInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVInfo.h; path = CJGMediaFramework/Classes/CJGAVInfo.h; sourceTree = "<group>"; };
+		5216F41729065AA400868414 /* CJGAVFirstAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVFirstAudioRecorder.m; path = CJGMediaFramework/Classes/CJGAVFirstAudioRecorder.m; sourceTree = "<group>"; };
+		5216F41829065AA400868414 /* CJGAVVideoRTMPFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoRTMPFrame.m; path = CJGMediaFramework/Classes/CJGAVVideoRTMPFrame.m; sourceTree = "<group>"; };
+		5216F41929065AA400868414 /* CJGAVAACAudioEncoderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAACAudioEncoderInterface.h; path = CJGMediaFramework/Classes/CJGAVAACAudioEncoderInterface.h; sourceTree = "<group>"; };
+		5216F41A29065AA400868414 /* CJGAVFirstAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVFirstAudioRecorder.h; path = CJGMediaFramework/Classes/CJGAVFirstAudioRecorder.h; sourceTree = "<group>"; };
+		5216F41B29065AA400868414 /* CJGAVH264EncodeOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVH264EncodeOptions.m; path = CJGMediaFramework/Classes/CJGAVH264EncodeOptions.m; sourceTree = "<group>"; };
+		5216F41C29065AA400868414 /* CJGAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVPlayer.m; path = CJGMediaFramework/Classes/CJGAVPlayer.m; sourceTree = "<group>"; };
+		5216F41D29065AA400868414 /* CJGAVEncodeAudioSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVEncodeAudioSetting.h; path = CJGMediaFramework/Classes/CJGAVEncodeAudioSetting.h; sourceTree = "<group>"; };
+		5216F41E29065AA400868414 /* CJGAVClipperOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVClipperOptions.m; path = CJGMediaFramework/Classes/CJGAVClipperOptions.m; sourceTree = "<group>"; };
+		5216F41F29065AA400868414 /* CJGAVSingleAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVSingleAudioPlayer.m; path = CJGMediaFramework/Classes/CJGAVSingleAudioPlayer.m; sourceTree = "<group>"; };
+		5216F42029065AA400868414 /* CJGAVAudioMixerOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioMixerOptions.m; path = CJGMediaFramework/Classes/CJGAVAudioMixerOptions.m; sourceTree = "<group>"; };
+		5216F42129065AA400868414 /* CJGProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGProxy.m; path = CJGMediaFramework/Classes/CJGProxy.m; sourceTree = "<group>"; };
+		5216F42229065AA400868414 /* CJGAVAudioClipperOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioClipperOptions.m; path = CJGMediaFramework/Classes/CJGAVAudioClipperOptions.m; sourceTree = "<group>"; };
+		5216F42329065AA400868414 /* CJGAVAudioPitchEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVAudioPitchEngine.m; path = CJGMediaFramework/Classes/CJGAVAudioPitchEngine.m; sourceTree = "<group>"; };
+		5216F42429065AA400868414 /* CJGAVAudioSplicerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioSplicerOptions.h; path = CJGMediaFramework/Classes/CJGAVAudioSplicerOptions.h; sourceTree = "<group>"; };
+		5216F42529065AA400868414 /* CJGAVTimeRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVTimeRange.h; path = CJGMediaFramework/Classes/CJGAVTimeRange.h; sourceTree = "<group>"; };
+		5216F42629065AA400868414 /* CJGAVVideoMixerOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoMixerOptions.m; path = CJGMediaFramework/Classes/CJGAVVideoMixerOptions.m; sourceTree = "<group>"; };
+		5216F42729065AA400868414 /* CJGAVVideoRTMPFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVVideoRTMPFrame.h; path = CJGMediaFramework/Classes/CJGAVVideoRTMPFrame.h; sourceTree = "<group>"; };
+		5216F42829065AA400868414 /* CJGAVDeviceAthorizationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVDeviceAthorizationSettings.h; path = CJGMediaFramework/Classes/CJGAVDeviceAthorizationSettings.h; sourceTree = "<group>"; };
+		5216F42929065AA400868414 /* CJGAVAudioPitchEngineRecorderOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioPitchEngineRecorderOptions.h; path = CJGMediaFramework/Classes/CJGAVAudioPitchEngineRecorderOptions.h; sourceTree = "<group>"; };
+		5216F42A29065AA500868414 /* CJGAVVideoClipper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVVideoClipper.m; path = CJGMediaFramework/Classes/CJGAVVideoClipper.m; sourceTree = "<group>"; };
+		5216F42B29065AA500868414 /* CJGAVFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVFileManager.m; path = CJGMediaFramework/Classes/CJGAVFileManager.m; sourceTree = "<group>"; };
+		5216F42C29065AA500868414 /* CJGAVAudioPitchFactory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CJGAVAudioPitchFactory.mm; path = CJGMediaFramework/Classes/CJGAVAudioPitchFactory.mm; sourceTree = "<group>"; };
+		5216F42D29065AA500868414 /* CJGAVAACEncodeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAACEncodeOptions.h; path = CJGMediaFramework/Classes/CJGAVAACEncodeOptions.h; sourceTree = "<group>"; };
+		5216F42E29065AA500868414 /* CJGAVAudioPitchEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioPitchEngine.h; path = CJGMediaFramework/Classes/CJGAVAudioPitchEngine.h; sourceTree = "<group>"; };
+		5216F42F29065AA500868414 /* CJGAVRecordCoreBaseInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVRecordCoreBaseInterface.h; path = CJGMediaFramework/Classes/CJGAVRecordCoreBaseInterface.h; sourceTree = "<group>"; };
+		5216F43029065AA500868414 /* CJGAVH264EncodeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVH264EncodeOptions.h; path = CJGMediaFramework/Classes/CJGAVH264EncodeOptions.h; sourceTree = "<group>"; };
+		5216F43129065AA500868414 /* CJGAVMediaTimelineSliceComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVMediaTimelineSliceComposition.m; path = CJGMediaFramework/Classes/CJGAVMediaTimelineSliceComposition.m; sourceTree = "<group>"; };
+		5216F43229065AA500868414 /* CJGAVAudioPitchFactoryInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioPitchFactoryInterface.h; path = CJGMediaFramework/Classes/CJGAVAudioPitchFactoryInterface.h; sourceTree = "<group>"; };
+		5216F43329065AA500868414 /* CJGAVRecordVideoCoreBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVRecordVideoCoreBase.m; path = CJGMediaFramework/Classes/CJGAVRecordVideoCoreBase.m; sourceTree = "<group>"; };
+		5216F43429065AA500868414 /* CJGAVMediaAssetOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVMediaAssetOptions.h; path = CJGMediaFramework/Classes/CJGAVMediaAssetOptions.h; sourceTree = "<group>"; };
+		5216F43529065AA500868414 /* CJGAVMeidaTimelineSlice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVMeidaTimelineSlice.m; path = CJGMediaFramework/Classes/CJGAVMeidaTimelineSlice.m; sourceTree = "<group>"; };
+		5216F43629065AA500868414 /* CJGAVFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVFileManager.h; path = CJGMediaFramework/Classes/CJGAVFileManager.h; sourceTree = "<group>"; };
+		5216F43729065AA500868414 /* CJGAVComponent_Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVComponent_Utils.h; path = CJGMediaFramework/Classes/CJGAVComponent_Utils.h; sourceTree = "<group>"; };
+		5216F43829065AA500868414 /* CJGAVMixerOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJGAVMixerOptions.m; path = CJGMediaFramework/Classes/CJGAVMixerOptions.m; sourceTree = "<group>"; };
+		5216F43929065AA500868414 /* CJGAVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJGAVAudioPlayer.h; path = CJGMediaFramework/Classes/CJGAVAudioPlayer.h; sourceTree = "<group>"; };
 		525D11EC28FD2518006B4482 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		525F3F6728F7C44000421F56 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitkeep; path = CJGMediaFramework/Classes/.gitkeep; sourceTree = "<group>"; };
-		52995A862900F2BE00F8EF32 /* CJGMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CJGMediaFramework.framework; path = CJGMediaFramework/Classes/CJGMediaFramework.framework; sourceTree = "<group>"; };
 		5FA8D38CF66475230C34308D75D2DB55 /* CJGMediaFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJGMediaFramework.modulemap; sourceTree = "<group>"; };
 		770AB9F8E6AACC1ADA8242A78314F9E0 /* CJGMediaFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGMediaFramework.release.xcconfig; sourceTree = "<group>"; };
 		8ECE2E1B0EBDE48252CF514AC68E8926 /* CJGMediaFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJGMediaFramework-Info.plist"; sourceTree = "<group>"; };
@@ -76,7 +388,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				525D11F028FD2628006B4482 /* libc++.tbd in Frameworks */,
-				52995A872900F2BE00F8EF32 /* CJGMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +451,163 @@
 		4A6DFAAA5DEF58280B94B5B62A40359F /* CJGMediaFramework */ = {
 			isa = PBXGroup;
 			children = (
-				52995A862900F2BE00F8EF32 /* CJGMediaFramework.framework */,
-				525F3F6728F7C44000421F56 /* .gitkeep */,
+				5216F40F29065AA300868414 /* AudioConvert.cpp */,
+				5216F3C829065AA100868414 /* AudioConvert.h */,
+				5216F40E29065AA300868414 /* AudioPitch.cpp */,
+				5216F3E029065AA200868414 /* AudioPitch.h */,
+				5216F3F629065AA300868414 /* AudioResample.cpp */,
+				5216F3FE29065AA300868414 /* AudioResample.h */,
+				5216F3B229065AA000868414 /* AudioStretch.cpp */,
+				5216F3AA29065AA000868414 /* AudioStretch.h */,
+				5216F3C729065AA100868414 /* CJGAVAACAudioDecoder.h */,
+				5216F3E229065AA200868414 /* CJGAVAACAudioDecoder.m */,
+				5216F3C329065AA100868414 /* CJGAVAACAudioEncoder.h */,
+				5216F3A529065A9F00868414 /* CJGAVAACAudioEncoder.m */,
+				5216F41929065AA400868414 /* CJGAVAACAudioEncoderInterface.h */,
+				5216F42D29065AA500868414 /* CJGAVAACEncodeOptions.h */,
+				5216F3BA29065AA000868414 /* CJGAVAACEncodeOptions.m */,
+				5216F3CF29065AA100868414 /* CJGAVAssetExportSession.h */,
+				5216F41029065AA400868414 /* CJGAVAssetExportSession.m */,
+				5216F3F829065AA300868414 /* CJGAVAudioClipper.h */,
+				5216F3DE29065AA200868414 /* CJGAVAudioClipper.m */,
+				5216F3BE29065AA000868414 /* CJGAVAudioClipperOptions.h */,
+				5216F42229065AA400868414 /* CJGAVAudioClipperOptions.m */,
+				5216F3C129065AA100868414 /* CJGAVAudioInfo.h */,
+				5216F3A629065AA000868414 /* CJGAVAudioInfo.m */,
+				5216F3F529065AA300868414 /* CJGAVAudioMixer.h */,
+				5216F39D29065A9F00868414 /* CJGAVAudioMixer.m */,
+				5216F3A229065A9F00868414 /* CJGAVAudioMixerOptions.h */,
+				5216F42029065AA400868414 /* CJGAVAudioMixerOptions.m */,
+				5216F42E29065AA500868414 /* CJGAVAudioPitchEngine.h */,
+				5216F42329065AA400868414 /* CJGAVAudioPitchEngine.m */,
+				5216F41229065AA400868414 /* CJGAVAudioPitchEngineInterface.h */,
+				5216F3F229065AA200868414 /* CJGAVAudioPitchEngineRecorder.h */,
+				5216F3F429065AA300868414 /* CJGAVAudioPitchEngineRecorder.m */,
+				5216F42929065AA400868414 /* CJGAVAudioPitchEngineRecorderOptions.h */,
+				5216F3EA29065AA200868414 /* CJGAVAudioPitchEngineRecorderOptions.m */,
+				5216F3DF29065AA200868414 /* CJGAVAudioPitchFactory.h */,
+				5216F42C29065AA500868414 /* CJGAVAudioPitchFactory.mm */,
+				5216F43229065AA500868414 /* CJGAVAudioPitchFactoryInterface.h */,
+				5216F43929065AA500868414 /* CJGAVAudioPlayer.h */,
+				5216F40A29065AA300868414 /* CJGAVAudioPlayer.m */,
+				5216F3C229065AA100868414 /* CJGAVAudioRecorderOptions.h */,
+				5216F3C029065AA100868414 /* CJGAVAudioRecorderOptions.m */,
+				5216F3C929065AA100868414 /* CJGAVAudioRTMPFrame.h */,
+				5216F39F29065A9F00868414 /* CJGAVAudioRTMPFrame.m */,
+				5216F42429065AA400868414 /* CJGAVAudioSplicerOptions.h */,
+				5216F40629065AA300868414 /* CJGAVAudioSplicerOptions.m */,
+				5216F3ED29065AA200868414 /* CJGAVClipperOptions.h */,
+				5216F41E29065AA400868414 /* CJGAVClipperOptions.m */,
+				5216F40C29065AA300868414 /* CJGAVComponent_Utils.cpp */,
+				5216F43729065AA500868414 /* CJGAVComponent_Utils.h */,
+				5216F3D029065AA100868414 /* CJGAVComponent.h */,
+				5216F39E29065A9F00868414 /* CJGAVComponent.m */,
+				5216F41429065AA400868414 /* CJGAVCoreBase.h */,
+				5216F40929065AA300868414 /* CJGAVCoreBase.m */,
+				5216F42829065AA400868414 /* CJGAVDeviceAthorizationSettings.h */,
+				5216F3EE29065AA200868414 /* CJGAVDeviceAthorizationSettings.m */,
+				5216F3E829065AA200868414 /* CJGAVDeviceSettings.h */,
+				5216F3E529065AA200868414 /* CJGAVDeviceSettings.m */,
+				5216F41D29065AA400868414 /* CJGAVEncodeAudioSetting.h */,
+				5216F41129065AA400868414 /* CJGAVEncodeAudioSetting.m */,
+				5216F3D229065AA100868414 /* CJGAVEncodeVideoSetting.h */,
+				5216F40829065AA300868414 /* CJGAVEncodeVideoSetting.m */,
+				5216F43629065AA500868414 /* CJGAVFileManager.h */,
+				5216F42B29065AA500868414 /* CJGAVFileManager.m */,
+				5216F41A29065AA400868414 /* CJGAVFirstAudioRecorder.h */,
+				5216F41729065AA400868414 /* CJGAVFirstAudioRecorder.m */,
+				5216F3CD29065AA100868414 /* CJGAVFirstVideoRecorder.h */,
+				5216F3A329065A9F00868414 /* CJGAVFirstVideoRecorder.m */,
+				5216F3FF29065AA300868414 /* CJGAVH246VideoDecoder.h */,
+				5216F3C629065AA100868414 /* CJGAVH246VideoDecoder.m */,
+				5216F43029065AA500868414 /* CJGAVH264EncodeOptions.h */,
+				5216F41B29065AA400868414 /* CJGAVH264EncodeOptions.m */,
+				5216F3D629065AA100868414 /* CJGAVH264VideoEncoder.h */,
+				5216F3EC29065AA200868414 /* CJGAVH264VideoEncoder.m */,
+				5216F3D729065AA100868414 /* CJGAVH264VideoEncoderInterface.h */,
+				5216F41629065AA400868414 /* CJGAVInfo.h */,
+				5216F3DA29065AA200868414 /* CJGAVInfo.m */,
+				5216F3F329065AA200868414 /* CJGAVLog.h */,
+				5216F3EF29065AA200868414 /* CJGAVLog.m */,
+				5216F43429065AA500868414 /* CJGAVMediaAssetOptions.h */,
+				5216F3B029065AA000868414 /* CJGAVMediaAssetOptions.m */,
+				5216F3AE29065AA000868414 /* CJGAVMediaInfo.h */,
+				5216F40D29065AA300868414 /* CJGAVMediaInfo.m */,
+				5216F41529065AA400868414 /* CJGAVMediaSampleBufferAssistant.h */,
+				5216F3BB29065AA000868414 /* CJGAVMediaSampleBufferAssistant.m */,
+				5216F3B829065AA000868414 /* CJGAVMediaTimelineSliceComposition.h */,
+				5216F43129065AA500868414 /* CJGAVMediaTimelineSliceComposition.m */,
+				5216F3BD29065AA000868414 /* CJGAVMediaTimelineSliceOptions.h */,
+				5216F3C529065AA100868414 /* CJGAVMediaTimelineSliceOptions.m */,
+				5216F3E929065AA200868414 /* CJGAVMeidaTimelineSlice.h */,
+				5216F43529065AA500868414 /* CJGAVMeidaTimelineSlice.m */,
+				5216F3FD29065AA300868414 /* CJGAVMixerOptions.h */,
+				5216F43829065AA500868414 /* CJGAVMixerOptions.m */,
+				5216F3FB29065AA300868414 /* CJGAVOptions.h */,
+				5216F3CE29065AA100868414 /* CJGAVOptions.m */,
+				5216F3D429065AA100868414 /* CJGAVPlayCoreBase.h */,
+				5216F3F029065AA200868414 /* CJGAVPlayCoreBase.m */,
+				5216F3E129065AA200868414 /* CJGAVPlayer.h */,
+				5216F41C29065AA400868414 /* CJGAVPlayer.m */,
+				5216F3DB29065AA200868414 /* CJGAVPlayerInterface.h */,
+				5216F3AB29065AA000868414 /* CJGAVRecordAudioCoreBase.h */,
+				5216F3AD29065AA000868414 /* CJGAVRecordAudioCoreBase.m */,
+				5216F3A929065AA000868414 /* CJGAVRecordCoreBase.h */,
+				5216F3DC29065AA200868414 /* CJGAVRecordCoreBase.m */,
+				5216F42F29065AA500868414 /* CJGAVRecordCoreBaseInterface.h */,
+				5216F40B29065AA300868414 /* CJGAVRecorderOptions.h */,
+				5216F3D829065AA200868414 /* CJGAVRecorderOptions.m */,
+				5216F3D129065AA100868414 /* CJGAVRecordVideoCoreBase.h */,
+				5216F43329065AA500868414 /* CJGAVRecordVideoCoreBase.m */,
+				5216F3CC29065AA100868414 /* CJGAVResult.h */,
+				5216F40029065AA300868414 /* CJGAVResult.m */,
+				5216F3F129065AA200868414 /* CJGAVRTMPFrame.h */,
+				5216F3B329065AA000868414 /* CJGAVRTMPFrame.m */,
+				5216F3B629065AA000868414 /* CJGAVSecondAudioRecorder.h */,
+				5216F3D529065AA100868414 /* CJGAVSecondAudioRecorder.m */,
+				5216F3B929065AA000868414 /* CJGAVSettings.h */,
+				5216F3CB29065AA100868414 /* CJGAVSettings.m */,
+				5216F3B429065AA000868414 /* CJGAVSingleAudioPlayer.h */,
+				5216F41F29065AA400868414 /* CJGAVSingleAudioPlayer.m */,
+				5216F3AC29065AA000868414 /* CJGAVSplicerOptions.h */,
+				5216F3A029065A9F00868414 /* CJGAVSplicerOptions.m */,
+				5216F3A129065A9F00868414 /* CJGAVThreeAudioRecorder.h */,
+				5216F3F729065AA300868414 /* CJGAVThreeAudioRecorder.m */,
+				5216F42529065AA400868414 /* CJGAVTimeRange.h */,
+				5216F3E429065AA200868414 /* CJGAVTimeRange.m */,
+				5216F3BF29065AA100868414 /* CJGAVVideoClipper.h */,
+				5216F42A29065AA500868414 /* CJGAVVideoClipper.m */,
+				5216F40129065AA300868414 /* CJGAVVideoClipperOptions.h */,
+				5216F3B729065AA000868414 /* CJGAVVideoClipperOptions.m */,
+				5216F3EB29065AA200868414 /* CJGAVVideoImageExtractor.h */,
+				5216F3D329065AA100868414 /* CJGAVVideoImageExtractor.m */,
+				5216F40229065AA300868414 /* CJGAVVideoImageExtractorOptions.h */,
+				5216F3D929065AA200868414 /* CJGAVVideoImageExtractorOptions.m */,
+				5216F40729065AA300868414 /* CJGAVVideoInfo.h */,
+				5216F3A829065AA000868414 /* CJGAVVideoInfo.m */,
+				5216F3BC29065AA000868414 /* CJGAVVideoMixer.h */,
+				5216F3FC29065AA300868414 /* CJGAVVideoMixer.m */,
+				5216F40329065AA300868414 /* CJGAVVideoMixerOptions.h */,
+				5216F42629065AA400868414 /* CJGAVVideoMixerOptions.m */,
+				5216F3C429065AA100868414 /* CJGAVVideoRecorderOptions.h */,
+				5216F3E329065AA200868414 /* CJGAVVideoRecorderOptions.m */,
+				5216F42729065AA400868414 /* CJGAVVideoRTMPFrame.h */,
+				5216F41829065AA400868414 /* CJGAVVideoRTMPFrame.m */,
+				5216F3F929065AA300868414 /* CJGAVVideoSplicer.h */,
+				5216F3B529065AA000868414 /* CJGAVVideoSplicer.m */,
+				5216F3FA29065AA300868414 /* CJGAVVideoSplicerOptions.h */,
+				5216F3A729065AA000868414 /* CJGAVVideoSplicerOptions.m */,
+				5216F3E729065AA200868414 /* CJGMediaAssetInfo.h */,
+				5216F40429065AA300868414 /* CJGMediaAssetInfo.m */,
+				5216F41329065AA400868414 /* CJGMediaFramework.h */,
+				5216F3B129065AA000868414 /* CJGProxy.h */,
+				5216F42129065AA400868414 /* CJGProxy.m */,
+				5216F3CA29065AA100868414 /* MediaApple.h */,
+				5216F3DD29065AA200868414 /* MediaApple.mm */,
+				5216F40529065AA300868414 /* MediaStruct.cpp */,
+				5216F3A429065A9F00868414 /* MediaStruct.h */,
+				5216F3AF29065AA000868414 /* Mutex.cpp */,
+				5216F3E629065AA200868414 /* Mutex.h */,
 				9AB00E07C2DCD1BA39A1D51DAA3FF12A /* Pod */,
 				26FEA8F01496DA740D7B9CCE906F9BC3 /* Support Files */,
 			);
@@ -244,6 +710,89 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5216F44629065AA500868414 /* CJGAVRecordCoreBase.h in Headers */,
+				5216F49C29065AA500868414 /* CJGAVH246VideoDecoder.h in Headers */,
+				5216F45929065AA500868414 /* CJGAVVideoMixer.h in Headers */,
+				5216F47D29065AA500868414 /* AudioPitch.h in Headers */,
+				5216F4D329065AA600868414 /* CJGAVFileManager.h in Headers */,
+				5216F4B229065AA500868414 /* CJGAVMediaSampleBufferAssistant.h in Headers */,
+				5216F47C29065AA500868414 /* CJGAVAudioPitchFactory.h in Headers */,
+				5216F46029065AA500868414 /* CJGAVAACAudioEncoder.h in Headers */,
+				5216F45C29065AA500868414 /* CJGAVVideoClipper.h in Headers */,
+				5216F4A029065AA500868414 /* CJGAVVideoMixerOptions.h in Headers */,
+				5216F49E29065AA500868414 /* CJGAVVideoClipperOptions.h in Headers */,
+				5216F4B729065AA500868414 /* CJGAVFirstAudioRecorder.h in Headers */,
+				5216F44829065AA500868414 /* CJGAVRecordAudioCoreBase.h in Headers */,
+				5216F46629065AA500868414 /* CJGAVAudioRTMPFrame.h in Headers */,
+				5216F49F29065AA500868414 /* CJGAVVideoImageExtractorOptions.h in Headers */,
+				5216F48329065AA500868414 /* Mutex.h in Headers */,
+				5216F49B29065AA500868414 /* AudioResample.h in Headers */,
+				5216F48829065AA500868414 /* CJGAVVideoImageExtractor.h in Headers */,
+				5216F48429065AA500868414 /* CJGMediaAssetInfo.h in Headers */,
+				5216F46C29065AA500868414 /* CJGAVAssetExportSession.h in Headers */,
+				5216F44129065AA500868414 /* MediaStruct.h in Headers */,
+				5216F49029065AA500868414 /* CJGAVLog.h in Headers */,
+				5216F45329065AA500868414 /* CJGAVSecondAudioRecorder.h in Headers */,
+				5216F4B629065AA500868414 /* CJGAVAACAudioEncoderInterface.h in Headers */,
+				5216F4B129065AA500868414 /* CJGAVCoreBase.h in Headers */,
+				5216F46E29065AA500868414 /* CJGAVRecordVideoCoreBase.h in Headers */,
+				5216F4C129065AA600868414 /* CJGAVAudioSplicerOptions.h in Headers */,
+				5216F47E29065AA500868414 /* CJGAVPlayer.h in Headers */,
+				5216F46529065AA500868414 /* AudioConvert.h in Headers */,
+				5216F4C229065AA600868414 /* CJGAVTimeRange.h in Headers */,
+				5216F45529065AA500868414 /* CJGAVMediaTimelineSliceComposition.h in Headers */,
+				5216F4B329065AA500868414 /* CJGAVInfo.h in Headers */,
+				5216F49529065AA500868414 /* CJGAVAudioClipper.h in Headers */,
+				5216F4BA29065AA600868414 /* CJGAVEncodeAudioSetting.h in Headers */,
+				5216F49729065AA500868414 /* CJGAVVideoSplicerOptions.h in Headers */,
+				5216F45E29065AA500868414 /* CJGAVAudioInfo.h in Headers */,
+				5216F4C429065AA600868414 /* CJGAVVideoRTMPFrame.h in Headers */,
+				5216F48A29065AA500868414 /* CJGAVClipperOptions.h in Headers */,
+				5216F48629065AA500868414 /* CJGAVMeidaTimelineSlice.h in Headers */,
+				5216F47829065AA500868414 /* CJGAVPlayerInterface.h in Headers */,
+				5216F43E29065AA500868414 /* CJGAVThreeAudioRecorder.h in Headers */,
+				5216F46729065AA500868414 /* MediaApple.h in Headers */,
+				5216F4A429065AA500868414 /* CJGAVVideoInfo.h in Headers */,
+				5216F44929065AA500868414 /* CJGAVSplicerOptions.h in Headers */,
+				5216F45A29065AA500868414 /* CJGAVMediaTimelineSliceOptions.h in Headers */,
+				5216F44729065AA500868414 /* AudioStretch.h in Headers */,
+				5216F47129065AA500868414 /* CJGAVPlayCoreBase.h in Headers */,
+				5216F4A829065AA500868414 /* CJGAVRecorderOptions.h in Headers */,
+				5216F45F29065AA500868414 /* CJGAVAudioRecorderOptions.h in Headers */,
+				5216F4CB29065AA600868414 /* CJGAVAudioPitchEngine.h in Headers */,
+				5216F4CD29065AA600868414 /* CJGAVH264EncodeOptions.h in Headers */,
+				5216F44E29065AA500868414 /* CJGProxy.h in Headers */,
+				52273D5C29028D3400A179C0 /* CJGMediaFramework-umbrella.h in Headers */,
+				5216F48E29065AA500868414 /* CJGAVRTMPFrame.h in Headers */,
+				5216F4CA29065AA600868414 /* CJGAVAACEncodeOptions.h in Headers */,
+				5216F48F29065AA500868414 /* CJGAVAudioPitchEngineRecorder.h in Headers */,
+				5216F4CC29065AA600868414 /* CJGAVRecordCoreBaseInterface.h in Headers */,
+				5216F4D629065AA600868414 /* CJGAVAudioPlayer.h in Headers */,
+				5216F44B29065AA500868414 /* CJGAVMediaInfo.h in Headers */,
+				5216F4AF29065AA500868414 /* CJGAVAudioPitchEngineInterface.h in Headers */,
+				5216F49629065AA500868414 /* CJGAVVideoSplicer.h in Headers */,
+				5216F45629065AA500868414 /* CJGAVSettings.h in Headers */,
+				5216F4C529065AA600868414 /* CJGAVDeviceAthorizationSettings.h in Headers */,
+				5216F45B29065AA500868414 /* CJGAVAudioClipperOptions.h in Headers */,
+				5216F46129065AA500868414 /* CJGAVVideoRecorderOptions.h in Headers */,
+				5216F46929065AA500868414 /* CJGAVResult.h in Headers */,
+				5216F48529065AA500868414 /* CJGAVDeviceSettings.h in Headers */,
+				5216F49A29065AA500868414 /* CJGAVMixerOptions.h in Headers */,
+				5216F45129065AA500868414 /* CJGAVSingleAudioPlayer.h in Headers */,
+				5216F46429065AA500868414 /* CJGAVAACAudioDecoder.h in Headers */,
+				5216F47329065AA500868414 /* CJGAVH264VideoEncoder.h in Headers */,
+				5216F4D129065AA600868414 /* CJGAVMediaAssetOptions.h in Headers */,
+				5216F43F29065AA500868414 /* CJGAVAudioMixerOptions.h in Headers */,
+				5216F4CF29065AA600868414 /* CJGAVAudioPitchFactoryInterface.h in Headers */,
+				5216F47429065AA500868414 /* CJGAVH264VideoEncoderInterface.h in Headers */,
+				5216F46F29065AA500868414 /* CJGAVEncodeVideoSetting.h in Headers */,
+				5216F46D29065AA500868414 /* CJGAVComponent.h in Headers */,
+				5216F49229065AA500868414 /* CJGAVAudioMixer.h in Headers */,
+				5216F46A29065AA500868414 /* CJGAVFirstVideoRecorder.h in Headers */,
+				5216F4D429065AA600868414 /* CJGAVComponent_Utils.h in Headers */,
+				5216F4B029065AA500868414 /* CJGMediaFramework.h in Headers */,
+				5216F49829065AA500868414 /* CJGAVOptions.h in Headers */,
+				5216F4C629065AA600868414 /* CJGAVAudioPitchEngineRecorderOptions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +921,82 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5216F47929065AA500868414 /* CJGAVRecordCoreBase.m in Sources */,
+				5216F4BF29065AA600868414 /* CJGAVAudioClipperOptions.m in Sources */,
+				5216F4AB29065AA500868414 /* AudioPitch.cpp in Sources */,
+				5216F47229065AA500868414 /* CJGAVSecondAudioRecorder.m in Sources */,
+				5216F49D29065AA500868414 /* CJGAVResult.m in Sources */,
+				5216F48929065AA500868414 /* CJGAVH264VideoEncoder.m in Sources */,
+				5216F49129065AA500868414 /* CJGAVAudioPitchEngineRecorder.m in Sources */,
+				5216F4A229065AA500868414 /* MediaStruct.cpp in Sources */,
+				5216F4BE29065AA600868414 /* CJGProxy.m in Sources */,
+				5216F4AE29065AA500868414 /* CJGAVEncodeAudioSetting.m in Sources */,
+				5216F4D529065AA600868414 /* CJGAVMixerOptions.m in Sources */,
+				5216F4A929065AA500868414 /* CJGAVComponent_Utils.cpp in Sources */,
+				5216F45729065AA500868414 /* CJGAVAACEncodeOptions.m in Sources */,
+				5216F4B429065AA500868414 /* CJGAVFirstAudioRecorder.m in Sources */,
+				5216F4CE29065AA600868414 /* CJGAVMediaTimelineSliceComposition.m in Sources */,
+				5216F44429065AA500868414 /* CJGAVVideoSplicerOptions.m in Sources */,
+				5216F4A529065AA500868414 /* CJGAVEncodeVideoSetting.m in Sources */,
+				5216F44029065AA500868414 /* CJGAVFirstVideoRecorder.m in Sources */,
+				5216F4AC29065AA500868414 /* AudioConvert.cpp in Sources */,
+				5216F45229065AA500868414 /* CJGAVVideoSplicer.m in Sources */,
+				5216F48029065AA500868414 /* CJGAVVideoRecorderOptions.m in Sources */,
+				5216F44A29065AA500868414 /* CJGAVRecordAudioCoreBase.m in Sources */,
+				5216F44D29065AA500868414 /* CJGAVMediaAssetOptions.m in Sources */,
+				5216F4C329065AA600868414 /* CJGAVVideoMixerOptions.m in Sources */,
+				5216F45429065AA500868414 /* CJGAVVideoClipperOptions.m in Sources */,
+				5216F4B529065AA500868414 /* CJGAVVideoRTMPFrame.m in Sources */,
+				5216F44F29065AA500868414 /* AudioStretch.cpp in Sources */,
+				5216F4D229065AA600868414 /* CJGAVMeidaTimelineSlice.m in Sources */,
+				5216F46B29065AA500868414 /* CJGAVOptions.m in Sources */,
+				5216F4B829065AA500868414 /* CJGAVH264EncodeOptions.m in Sources */,
+				5216F46229065AA500868414 /* CJGAVMediaTimelineSliceOptions.m in Sources */,
+				5216F43A29065AA500868414 /* CJGAVAudioMixer.m in Sources */,
+				5216F4AA29065AA500868414 /* CJGAVMediaInfo.m in Sources */,
+				5216F4A729065AA500868414 /* CJGAVAudioPlayer.m in Sources */,
+				5216F48129065AA500868414 /* CJGAVTimeRange.m in Sources */,
+				5216F45029065AA500868414 /* CJGAVRTMPFrame.m in Sources */,
+				5216F47F29065AA500868414 /* CJGAVAACAudioDecoder.m in Sources */,
+				5216F4BC29065AA600868414 /* CJGAVSingleAudioPlayer.m in Sources */,
+				5216F45829065AA500868414 /* CJGAVMediaSampleBufferAssistant.m in Sources */,
+				5216F47A29065AA500868414 /* MediaApple.mm in Sources */,
+				5216F43D29065AA500868414 /* CJGAVSplicerOptions.m in Sources */,
+				5216F46829065AA500868414 /* CJGAVSettings.m in Sources */,
+				5216F49429065AA500868414 /* CJGAVThreeAudioRecorder.m in Sources */,
+				5216F4BD29065AA600868414 /* CJGAVAudioMixerOptions.m in Sources */,
+				5216F47529065AA500868414 /* CJGAVRecorderOptions.m in Sources */,
+				5216F4C029065AA600868414 /* CJGAVAudioPitchEngine.m in Sources */,
+				5216F44229065AA500868414 /* CJGAVAACAudioEncoder.m in Sources */,
+				5216F4B929065AA500868414 /* CJGAVPlayer.m in Sources */,
+				5216F44329065AA500868414 /* CJGAVAudioInfo.m in Sources */,
+				5216F4C929065AA600868414 /* CJGAVAudioPitchFactory.mm in Sources */,
+				5216F49329065AA500868414 /* AudioResample.cpp in Sources */,
+				5216F48229065AA500868414 /* CJGAVDeviceSettings.m in Sources */,
+				5216F48C29065AA500868414 /* CJGAVLog.m in Sources */,
 				62E682AF6800F4F477FC048A2BA1CD62 /* CJGMediaFramework-dummy.m in Sources */,
+				5216F49929065AA500868414 /* CJGAVVideoMixer.m in Sources */,
+				5216F46329065AA500868414 /* CJGAVH246VideoDecoder.m in Sources */,
+				5216F44529065AA500868414 /* CJGAVVideoInfo.m in Sources */,
+				5216F48729065AA500868414 /* CJGAVAudioPitchEngineRecorderOptions.m in Sources */,
+				5216F4A129065AA500868414 /* CJGMediaAssetInfo.m in Sources */,
+				5216F44C29065AA500868414 /* Mutex.cpp in Sources */,
+				5216F48D29065AA500868414 /* CJGAVPlayCoreBase.m in Sources */,
+				5216F47629065AA500868414 /* CJGAVVideoImageExtractorOptions.m in Sources */,
+				5216F47B29065AA500868414 /* CJGAVAudioClipper.m in Sources */,
+				5216F48B29065AA500868414 /* CJGAVDeviceAthorizationSettings.m in Sources */,
+				5216F4A329065AA500868414 /* CJGAVAudioSplicerOptions.m in Sources */,
+				5216F4BB29065AA600868414 /* CJGAVClipperOptions.m in Sources */,
+				5216F47729065AA500868414 /* CJGAVInfo.m in Sources */,
+				5216F45D29065AA500868414 /* CJGAVAudioRecorderOptions.m in Sources */,
+				5216F4D029065AA600868414 /* CJGAVRecordVideoCoreBase.m in Sources */,
+				5216F4AD29065AA500868414 /* CJGAVAssetExportSession.m in Sources */,
+				5216F43B29065AA500868414 /* CJGAVComponent.m in Sources */,
+				5216F47029065AA500868414 /* CJGAVVideoImageExtractor.m in Sources */,
+				5216F4A629065AA500868414 /* CJGAVCoreBase.m in Sources */,
+				5216F43C29065AA500868414 /* CJGAVAudioRTMPFrame.m in Sources */,
+				5216F4C729065AA600868414 /* CJGAVVideoClipper.m in Sources */,
+				5216F4C829065AA600868414 /* CJGAVFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +1044,7 @@
 				INFOPLIST_FILE = "Target Support Files/CJGMediaFramework/CJGMediaFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CJGMediaFramework/CJGMediaFramework.modulemap";
 				OTHER_LDFLAGS = "";
 				PRODUCT_MODULE_NAME = CJGMediaFramework;
@@ -457,11 +1077,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CJGMediaFramework_Example/Pods-CJGMediaFramework_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CJGMediaFramework_Example/Pods-CJGMediaFramework_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -495,11 +1111,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CJGMediaFramework_Tests/Pods-CJGMediaFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CJGMediaFramework_Tests/Pods-CJGMediaFramework_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -533,11 +1145,7 @@
 				INFOPLIST_FILE = "Target Support Files/CJGMediaFramework/CJGMediaFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CJGMediaFramework/CJGMediaFramework.modulemap";
 				OTHER_LDFLAGS = "";
 				PRODUCT_MODULE_NAME = CJGMediaFramework;
@@ -609,8 +1217,7 @@
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -701,11 +1308,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CJGMediaFramework_Tests/Pods-CJGMediaFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CJGMediaFramework_Tests/Pods-CJGMediaFramework_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -739,11 +1342,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CJGMediaFramework_Example/Pods-CJGMediaFramework_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CJGMediaFramework_Example/Pods-CJGMediaFramework_Example.modulemap";
 				OTHER_LDFLAGS = "";
